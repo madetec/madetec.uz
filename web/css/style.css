@@ -544,11 +544,12 @@ ul.head-navigation li{
   
 .pic-1 {
     opacity: 1;
-    background: url('../img/slider/slider-1.jpg') no-repeat center center;
+    background: url('../img/slider/17.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-blend-mode: darken;
 }
 
 .pic-2 {
@@ -556,7 +557,7 @@ ul.head-navigation li{
     -o-animation-delay: 6s;
     -moz--animation-delay: 6s;
     -webkit-animation-delay: 6s;
-    background: url('../img/slider/slider-2.jpg') no-repeat center center;
+    background: url('../img/slider/18.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -568,7 +569,7 @@ ul.head-navigation li{
     -o-animation-delay: 12s;
     -moz--animation-delay: 12s;
     -webkit-animation-delay: 12s;
-    background: url('../img/slider/slider-3.jpg') no-repeat center center;
+    background: url('../img/slider/19.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -580,7 +581,7 @@ ul.head-navigation li{
     -o-animation-delay: 18s;
     -moz--animation-delay: 18s;
     -webkit-animation-delay: 18s;
-    background: url('../img/slider/slider-4.jpg') no-repeat center center;
+    background: url('../img/slider/20.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1488,7 +1489,7 @@ ul li {
 }
 
 .banner {
-    background: url('../img/slider/slider-1.jpg') no-repeat center center;
+    background: url('../img/slider/16.png') no-repeat center center;
     background-color:#12141c;
     background-size: cover;
     background-blend-mode: soft-light;
