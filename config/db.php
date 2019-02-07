@@ -3,8 +3,8 @@
 if ($_SERVER['SERVER_NAME'] != 'madetec.test') {
     $db = [
         'dsn' => 'mysql:host=localhost;dbname=madetec',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'madetec',
+        'password' => 'Vikqab-zajpeg-jyzno5',
     ];
 } else {
     $db = [
