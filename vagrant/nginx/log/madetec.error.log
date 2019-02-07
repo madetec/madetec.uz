@@ -1,0 +1,105 @@
+2019/02/06 10:04:53 [crit] 11617#11617: *1 connect() to unix:/var/run/php/php7.0-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "madetec.test"
+2019/02/06 10:04:53 [crit] 11617#11617: *3 connect() to unix:/var/run/php/php7.0-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.33.1, server: madetec.test, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "madetec.test", referrer: "http://madetec.test/"
+2019/02/06 12:06:00 [crit] 11617#11617: *5 connect() to unix:/var/run/php/php7.0-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "madetec.test"
+2019/02/06 12:14:59 [crit] 11617#11617: *7 connect() to unix:/var/run/php/php7.0-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "madetec.test"
+2019/02/06 12:15:45 [error] 11949#11949: *1 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'geco'@'localhost' (using password: YES) in /app/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=loca...', 'geco', 'KDws8hyxHmWKBax...', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /app/ve" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:16:38 [error] 11949#11949: *3 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'madetec.news' doesn't exist in /app/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /app/widgets/NewsWidget.php(26): yii\db\ActiveQuery->all()
+#6 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\widgets\NewsWidget->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 /app/vendor/yiisoft/yii2/di/Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#9 /app/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:17:33 [error] 11949#11949: *3 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'madetec.news' doesn't exist in /app/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /app/widgets/NewsWidget.php(26): yii\db\ActiveQuery->all()
+#6 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\widgets\NewsWidget->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 /app/vendor/yiisoft/yii2/di/Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#9 /app/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:18:07 [error] 11949#11949: *3 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'madetec.news' doesn't exist in /app/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /app/widgets/NewsWidget.php(26): yii\db\ActiveQuery->all()
+#6 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\widgets\NewsWidget->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 /app/vendor/yiisoft/yii2/di/Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#9 /app/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:18:13 [error] 11949#11949: *3 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'madetec.news' doesn't exist in /app/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /app/widgets/NewsWidget.php(26): yii\db\ActiveQuery->all()
+#6 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\widgets\NewsWidget->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 /app/vendor/yiisoft/yii2/di/Container.php(384): ReflectionClass->newInstanceArgs(Array)
+#9 /app/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:22:44 [error] 11949#11949: *12 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /app/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=loca...', 'root', '123', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /app/vendor/yiisoft/yi" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:22:46 [error] 11949#11949: *12 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /app/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=loca...', 'root', '123', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /app/vendor/yiisoft/yi" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/06 12:24:06 [error] 11949#11949: *15 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /app/vendor/yiisoft/yii2/db/Connection.php:687
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(687): PDO->__construct('mysql:host=loca...', 'root', '123', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(613): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(996): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(983): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /app/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /app/vendor/yiisoft/yi" while reading upstream, client: 192.168.33.1, server: madetec.test, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test"
+2019/02/07 10:15:39 [error] 1850#1850: *47 FastCGI sent in stderr: "PHP message: PHP Warning:  mkdir(): File exists in /app/vendor/yiisoft/yii2/helpers/BaseFileHelper.php on line 628" while reading response header from upstream, client: 192.168.33.1, server: madetec.test, request: "GET /vendor/popper.min.js.map HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.1-fpm.sock:", host: "madetec.test", referrer: "http://madetec.test/"
