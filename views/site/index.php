@@ -488,42 +488,26 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="owl-carousel owl-theme">
                     <div class="testimonial-item">
                         <div class=" testimonial-content">
-                            <p class="pb-20">Ipsum curae curabitur dapibus non netus dolor ante ut laoreet, turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing bibendum himenaeos loportis dictum etiam.</p>
+                            <p class="pb-20">Мы работаем с Madetec с момента нашего основания: заказывали у них всё, начиная от логотипа и брендинга, заканчивая сайтом и социальными сетями. Также, ребята оказали поддержку в проведении презентации.</p>
                             <img src="/img/photo-1.png" alt="testi-1">
-                            <h4>Тимур Касимов</h4>
+                            <h4>Темур Касимов</h4>
                             <h5>GECO Innovations, CEO</h5>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class=" testimonial-content">
-                            <p class="pb-20">Ipsum curae curabitur dapibus non netus dolor ante ut laoreet, turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing bibendum himenaeos loportis dictum etiam.</p>
+                            <p class="pb-20">Работа с ребятами из Madetec – сплошное удовольствие, их работы полны эстетики и отменного вкуса. Сотрудничаем с их отделом маркетинга и дизайна, получаем развивающиеся соцсети и невероятные маркетинговые материалы.</p>
                             <img src="/img/photo-1.png" alt="testi-1">
-                            <h4>John Snow</h4>
-                            <h5>MUIC coordinator</h5>
+                            <h4>Нигора Хашимова</h4>
+                            <h5>Aroma Air</h5>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class=" testimonial-content">
-                            <p class="pb-20">Ipsum curae curabitur dapibus non netus dolor ante ut laoreet, turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing bibendum himenaeos loportis dictum etiam.</p>
-                            <img src="/img/photo-1.png" alt="testi-1">
-                            <h4>John Snow</h4>
-                            <h5>Agatha CEO</h5>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class=" testimonial-content">
-                            <p class="pb-20">Ipsum curae curabitur dapibus non netus dolor ante ut laoreet, turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing bibendum himenaeos loportis dictum etiam.</p>
-                            <img src="/img/photo-1.png" alt="testi-1">
-                            <h4>John Snow</h4>
-                            <h5>Agatha CEO</h5>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class=" testimonial-content">
-                            <p class="pb-20">Ipsum curae curabitur dapibus non netus dolor ante ut laoreet, turpis faucibus sodales euismod conubia taciti quisque vestibulum, vitae adipiscing bibendum himenaeos loportis dictum etiam.</p>
-                            <img src="/img/photo-1.png" alt="testi-1">
-                            <h4>John Snow</h4>
-                            <h5>Agatha CEO</h5>
+                            <p class="pb-20">OOO «Madetec Solution» является одним из молодых и прогрессивных членов Мирзо-Улугбекского Инновационного Центра и принимает участие в мероприятиях и заседаниях данного Центра.</p>
+                            <img src="/img/partner/muic.png" alt="testi-1">
+                            <h4>Coordinating Centre</h4>
+                            <h5>MUIC</h5>
                         </div>
                     </div>
                 </div>
