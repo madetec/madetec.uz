@@ -303,7 +303,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                             <li><span>Заказчик </span> : &nbsp; Watch Vault, Норвегия</li>
                             <li><span>Категория </span> : &nbsp; Разработка приложений</li>
                         </ul>
-                        <a href="#0" class="main-button mt-20">
+                        <a href="http://watchvault.org" target="_blank" class="main-button mt-20">
                             <span>Сайт компании</span>
                         </a>
                     </div>
@@ -327,7 +327,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                             <li><span>Заказчик</span> : &nbsp; GECO Innovations, Узбекистан</li>
                             <li><span>Категория </span> : &nbsp; Разработка, Маркетинг, Брендинг</li>
                         </ul>
-                        <a href="#0" class="main-button mt-20">
+                        <a href="http://geco.uz" target="_blank" class="main-button mt-20">
                             <span>Сайт компании</span>
                         </a>
                     </div>
@@ -489,7 +489,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="testimonial-item">
                         <div class=" testimonial-content">
                             <p class="pb-20">Мы работаем с Madetec с момента нашего основания: заказывали у них всё, начиная от логотипа и брендинга, заканчивая сайтом и социальными сетями. Также, ребята оказали поддержку в проведении презентации.</p>
-                            <img src="/img/photo-1.png" alt="testi-1">
+                            <img src="/img/partner/logoGeco.jpg" alt="testi-1">
                             <h4>Темур Касимов</h4>
                             <h5>GECO Innovations, CEO</h5>
                         </div>
@@ -497,7 +497,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="testimonial-item">
                         <div class=" testimonial-content">
                             <p class="pb-20">Работа с ребятами из Madetec – сплошное удовольствие, их работы полны эстетики и отменного вкуса. Сотрудничаем с их отделом маркетинга и дизайна, получаем развивающиеся соцсети и невероятные маркетинговые материалы.</p>
-                            <img src="/img/photo-1.png" alt="testi-1">
+                            <img src="/img/partner/aromaAir.png" alt="testi-1">
                             <h4>Нигора Хашимова</h4>
                             <h5>Aroma Air</h5>
                         </div>
@@ -531,70 +531,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 </div>
 <!-- Testimonial End -->
 
-<!-- Start Blog -->
-<section class="blog bg-main" data-scroll-index="5">
-    <div class="container">
-        <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Какие-то статьи</h4>
-        <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Актуальная подборка материалов для Вас</span></h3>
-        <div class="line"></div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="item">
-                    <div class="post-img">
-                        <div class="img">
-                            <img src="images/article1.png" alt="port-1">
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="info">
-                            <a href="#0">06 Feb 2019</a>
-                            <a href="#0">Зайниддинов Аббос</a>
-                        </div>
-                        <h6><a href="#0">Madetec, MUIC и Кибербезопасность</a></h6>
-                        <p>Команда Madetec приняла участие в заседании круглого стола на тему «Кибербезопасность» с презентацией своего проекта Bank Report System</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="item mmt-20">
-                    <div class="post-img">
-                        <div class="img">
-                            <img src="images/article2.png" alt="port-1">
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="info">
-                            <a href="#0">01 Feb 2019</a>
-                            <a href="#0">Юсупов Наиль</a>
-                        </div>
-                        <h6><a href="#0">Обновленный сайт для GECO Innovations</a></h6>
-                        <p>В связи расширением спектра услуг компании GECO был создан новый многофункциональный сайт компании. Смотрим до/после и оцениваем работу</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="item mmt-20">
-                    <div class="post-img">
-                        <div class="img">
-                            <img src="images/article3.png" alt="port-1">
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="info">
-                            <a href="#0">30 Jan 2019</a>
-                            <a href="#0">Даргель Екатерина</a>
-                        </div>
-                        <h6><a href="#0">Окей, гугл: Как стать программером и не сойти с ума</a></h6>
-                        <p>Узнала у наших разработчиков, как они изучали код, где учились, а также подобрала варианты для самостоятельного изучения программирования</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<?= \app\widgets\NewsWidget::widget(['profile' => 'index','count' => 3]) ?>
 
 <section class="banner">
     <div class="container">

@@ -5,39 +5,47 @@
 use yii\helpers\Url;
 
 ?>
-
-
-<section class="portfolio-section v1">
-    <div class="container-fluid">
-        <div class="section-header">
-            <h3>Новости компании</h3>
-        </div>
+<!-- Start Blog -->
+<section class="blog bg-main" data-scroll-index="5">
+    <div class="container">
+        <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Какие-то
+            статьи</h4>
+        <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Актуальная подборка материалов для Вас</span>
+        </h3>
+        <div class="line"></div>
         <div class="row">
-            <?php foreach ($news as $item): ?>
-                <div class="col-md-3 col-xs-12">
-                    <div class="portfolio-box">
-                        <div class="cover">
-                            <a href="<?= Url::to(['news/view', 'slug' => $item->slug]) ?>">
-                                <img
-                                        style="-webkit-filter: brightness(0.50);filter: brightness(0.50);"
-                                        src="<?= $item->mainPhoto ? $item->mainPhoto->getThumbFileUrl('file', 'preview') : null; ?>"
-                                        alt="<?= $item->title ?>">
-                            </a>
-                            <h6 class="title"><?= $item->title ?></h6>
-                            <ul class="categories clean-list">
-                                <li><?= Yii::$app->formatter->asDate($item->published_at, 'full') ?></li>
-                            </ul>
+            <?php foreach ($news
+
+                           as $item): ?>
+                <div class="col-lg-4">
+                    <div class="item mmt-20">
+                        <div class="post-img">
+                            <div class="img">
+                                <img src="<?= $item->mainPhoto ? $item->mainPhoto->getThumbFileUrl('file', 'index') : null; ?>"
+                                     alt="<?= $item->title ?>">
+
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <a href="#0"><?= Yii::$app->formatter->asDate($item->published_at, 'php:d M Y') ?></a>
+
+                            </div>
+                            <h6>
+                                <a href="<?= Url::to(['news/view', 'slug' => $item->slug]) ?>">
+                                    <?= $item->title ?>
+                                </a>
+                            </h6>
+                            <p><?= $item->description ?></p>
                         </div>
                     </div>
                 </div>
+
             <?php endforeach; ?>
-            <div class="col-md-12 col-xs-12">
-                <div class="section-header button">
-                    <h1>Cоздадим нечто великолепное вместе</h1>
-                    <p>Свяжитесь с нами или отправьте нам вашу контактную информацию</p>
-                    <a href="<?= Url::to(['site/contact']) ?>" class="btn yellow medium dark-hover">Связаться с GECO</a>
-                </div>
-            </div>
+
 
         </div>
+    </div>
 </section>
+
+
