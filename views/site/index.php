@@ -273,7 +273,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="col-md-12 col-lg-5">
                         <h3 class="mt-20"><span>BRS - </span>
                             Bank Report System </h3>
-                        <p class="mt-20">Система для оперативного обслуживания клиентов банком</p>
+                        <p class="mt-20">BRS анализируйт необычные действия, чтобы идентифицировать и предсказать любой тип мошенничества - от личности до финансов.</p>
                         <ul class="mt-30">
                             <li><span>Год запуска </span> : &nbsp; 2018</li>
                             <li><span>Заказчик </span> : &nbsp; Банк, Узбекистан</li>
