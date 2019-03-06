@@ -26,8 +26,6 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <meta name="og:title" content="<?= Html::encode($this->title) ?>">
-    <meta name="keywords"
-          content="разработка в ташкенте, разработка сайтов в ташкенте, разработка логотипа в ташкенте, разработка веб сайтов в ташкенте, разработчик приложений для ios и android ташкент, инстаграм ташкент, фейсбук ташкент, tashkent instagram, facebook tashkent">
     <?php $this->head() ?>
 </head>
 <body>
