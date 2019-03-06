@@ -283,7 +283,6 @@ $this->title = 'Madetec Solution | Digital Agency';
                             <span>Презентация Проекта</span>
                         </a>
                     </div>
-
                 </div>
             </div>
 
