@@ -21,12 +21,13 @@ AppAsset::register($this);
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
-<!--    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#E8452C">-->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <meta name="og:title" content="<?= Html::encode($this->title) ?>">
+    <meta name="keywords"
+          content="разработка в ташкенте, разработка сайтов в ташкенте, разработка логотипа в ташкенте, разработка веб сайтов в ташкенте, разработчик приложений для ios и android ташкент, инстаграм ташкент, фейсбук ташкент, tashkent instagram, facebook tashkent">
     <?php $this->head() ?>
 </head>
 <body>
