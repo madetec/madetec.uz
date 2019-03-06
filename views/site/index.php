@@ -79,7 +79,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             <ul class="head-navigation text-center">
                 <li class="main-nav text-left">
                     <a href="#0" data-scroll-nav="1"
-                       onclick="ym(47521897, 'reachGoal', 'services_scroll'); return true;">
+                       onclick="ym(52667527, 'reachGoal', 'services_scroll'); return true;">
                         <h4>Что мы умеем делать</h4>
                         <div class="top-nav">
                                     <span>
