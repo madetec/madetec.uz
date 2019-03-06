@@ -611,7 +611,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             <div class="col-md-4 border">
                 <i class="fas fa-envelope"></i>
                 <h4>Для писем</h4>
-                <a><a href="mailto:feedback@madetec.uz" onclick="ym(52667527, 'reachGoal', 'mail_feedback'); return true;">feedback@madetec.uz</a></p>
+                <p><a href="mailto:feedback@madetec.uz" onclick="ym(52667527, 'reachGoal', 'mail_feedback'); return true;">feedback@madetec.uz</a></p>
             </div>
             <div class="col-md-4 border">
                 <div class="address">
