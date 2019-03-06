@@ -611,7 +611,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             <div class="col-md-4 border">
                 <i class="fas fa-envelope"></i>
                 <h4>Для писем</h4>
-                <p>feedback@madetec.uz</p>
+                <a><a href="mailto:feedback@madetec.uz" onclick="ym(52667527, 'reachGoal', 'mail_feedback'); return true;">feedback@madetec.uz</a></p>
             </div>
             <div class="col-md-4 border">
                 <div class="address">
@@ -624,14 +624,15 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="address">
                     <i class="fas fa-phone"></i>
                     <h4>Позвонить нам</h4>
-                    <p>+998 ( 97 ) 747 6044</p>
+                    <p><a href="tel:977476044" onclick="ym(52667527, 'reachGoal', 'phone_7476044'); return true;">+998 ( 97 ) 747 6044</a></p>
+                    <p><a href="tel:998001559" onclick="ym(52667527, 'reachGoal', 'phone_8001559'); return true;">+998 ( 99 ) 800 1559</a></p>
+                    <p><a href="tel:998917204" onclick="ym(52667527, 'reachGoal', 'phone_8917204'); return true;">+998 ( 99 ) 891 7204</a></p>
                 </div>
             </div>
             <div class="col-md-12 text-center mt-40">
                 <ul class="social">
-                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/madetec.uz" onclick="ym(52667527, 'reachGoal', 'social_fb'); return true;"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#" onclick="ym(52667527, 'reachGoal', 'social_in'); return true;"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
