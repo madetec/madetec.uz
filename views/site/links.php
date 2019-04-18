@@ -20,7 +20,7 @@
                         <li><a href="https://www.instagram.com/madetecdigital"><i class="fab fa-instagram fa-2x color-in"></i> instagram</a></li>
                     </ul>
                     <a href="/">Сайт компании</a>
-                    <a href="/">Коммерческое предложение</a>
+                    <a href="https://drive.google.com/file/d/1GCllRYKtSnRq5yKPuMIZf3ybwZfM7Spl/view">Коммерческое предложение</a>
                 </div>
                 <div class="links-card-footer">
                     <p>Powered by Madetec | <?= date('Y') ?></p>
