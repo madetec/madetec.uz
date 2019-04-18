@@ -81,4 +81,10 @@ class SiteController extends Controller
         ]);
     }
 
+
+    public function actionLinks()
+    {
+        return $this->render('links');
+    }
+
 }

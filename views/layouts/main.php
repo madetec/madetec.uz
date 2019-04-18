@@ -7,10 +7,16 @@
 use app\assets\AppAsset;
 use yii\helpers\Html;
 
-AppAsset::register($this);
+if (Yii::$app->controller->action->id === 'links'):
+    echo $this->render(
+        'main-links',
+        ['content' => $content]
+    );
+else:
+    AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
@@ -31,7 +37,9 @@ AppAsset::register($this);
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137783784-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag(){dataLayer.push(arguments);}
+
         gtag('js', new Date());
 
         gtag('config', 'UA-137783784-1');
@@ -61,3 +69,4 @@ AppAsset::register($this);
 </body>
 </html>
 <?php $this->endPage() ?>
+<?php endif; ?>
