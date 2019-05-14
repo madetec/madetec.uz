@@ -29,15 +29,31 @@ if($news->mainPhoto){
 
 ?>
 
-<div class="content-wrapper">
-    <section class="hero-section">
+
+<section class="banner" style="background-image: url('<?= $news->mainPhoto ? $news->mainPhoto->getUploadedFileUrl('file') : null; ?>')">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <img src="<?= $news->mainPhoto ? $news->mainPhoto->getUploadedFileUrl('file') : null; ?>"
-                        style="width: 100%; height:300px; object-fit: cover; -webkit-filter:brightness(0.2) ;filter:brightness(0.2);">
+            <div class="col-md-12 text-center">
+
+                <h2 data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Хотите, чтобы мы воплотили Ваши идеи в жизнь?</h2>
+                <h4 data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Поделитесь с нами задумкой и мы обязательно свяжемся с Вами в течение часа!</h4>
+                <a href="#0" class="main-button mt-20" data-aos="fade-down" data-aos-delay="300" data-aos-once="true">
+                    <span>Хочу!</span>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<div class="content-wrapper">
+<!--    <section class="hero-section">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm-12">-->
+<!--                <img src="--><?//= $news->mainPhoto ? $news->mainPhoto->getUploadedFileUrl('file') : null; ?><!--"-->
+<!--                        style="width: 100%; height:300px; object-fit: cover; -webkit-filter:brightness(0.2) ;filter:brightness(0.2);">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <section class="single-post-section">
         <div class="container">
             <div class="row">

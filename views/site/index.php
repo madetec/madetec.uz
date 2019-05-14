@@ -217,13 +217,13 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="row  v-center">
                     <div class="col-md-12 col-lg-7 mt-30">
                         <div class="img-port">
-                            <img class="img-fluid" src="images/9.png" alt="a">
+                            <img class="img-fluid" src="/images/9.png" alt="a">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
                         <h3 class="mt-20"><span>BRS - </span>
                             Bank Report System </h3>
-                        <p class="mt-20">BRS анализируйт необычные действия, чтобы идентифицировать и предсказать любой тип мошенничества - от личности до финансов.</p>
+                        <p class="mt-20">BRS Анализирует необычные действия, чтобы идентифицировать и предсказать любой тип мошенничества - от личности до финансов.</p>
                         <ul class="mt-30">
                             <li><span>Год запуска </span> : &nbsp; 2018</li>
                             <li><span>Заказчик </span> : &nbsp; Банк, Узбекистан</li>
@@ -240,7 +240,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="row v-center">
                     <div class="col-md-12 col-lg-7 mt-30">
                         <div class="img-port">
-                            <img class="img-fluid" src="images/11.png" alt="a">
+                            <img class="img-fluid" src="/images/11.png" alt="a">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
@@ -264,7 +264,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="row v-center">
                     <div class="col-md-12 col-lg-7 mt-30">
                         <div class="img-port">
-                            <img class="img-fluid" src="images/10.png" alt="a">
+                            <img class="img-fluid" src="/images/10.png" alt="a">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
@@ -321,7 +321,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/1.png" alt="port-1">
+                        <img src="/images/1.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -337,7 +337,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/2.png" alt="port-1">
+                        <img src="/images/2.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -353,7 +353,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/4.png" alt="port-1">
+                        <img src="/images/4.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -369,7 +369,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/7.png" alt="port-1">
+                        <img src="/images/7.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -385,7 +385,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/3.png" alt="port-1">
+                        <img src="/images/3.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -401,7 +401,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/6.png" alt="port-1">
+                        <img src="/images/6.png" alt="port-1">
                     </div>
                     <div class="team-item">
                         <div class="team-detail">
@@ -417,7 +417,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                                 </ul>
                             </div>
                         </div>
-                        <img src="images/5.png" alt="port-1">
+                        <img src="/images/5.png" alt="port-1">
                     </div>
                 </div>
             </div>
@@ -471,7 +471,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             <div class="col-lg-12">
                 <div class="owl-carousel owl-theme">
                     <div class="partner-item">
-                        <img src="images/logo.png" alt="part-1">
+                        <img src="/images/logo.png" alt="part-1">
                     </div>
                 </div>
             </div>
