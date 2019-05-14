@@ -35,6 +35,7 @@ if($news->mainPhoto){
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 data-aos="fade-up" data-aos-delay="300" data-aos-once="true"><?= $news->title ?></h2>
+                <h4 data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><?= Yii::$app->formatter->asDate($news->published_at, 'full') ?></h4>
             </div>
         </div>
     </div>
@@ -47,10 +48,6 @@ if($news->mainPhoto){
                 <div class="col-md-12 col-content">
                     <div class="blog-posts-list single">
                         <div class="blog-post">
-                            <h2 class="post-title"><?= $news->title ?></h2>
-                            <ul class="post-meta clean-list">
-                                <li><?= Yii::$app->formatter->asDate($news->published_at, 'full') ?></li>
-                            </ul>
                             <div class="entry">
                                 <?= $news->text ?>
                                 <?php if ($news->photos): ?>
