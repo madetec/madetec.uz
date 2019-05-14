@@ -63,7 +63,7 @@ else:
 
         <!-- Logo -->
         <a class="logo" href="#">
-            <img src="images/logo.png" alt="logo">
+            <img src="/images/logo.png" alt="logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

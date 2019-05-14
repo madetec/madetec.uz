@@ -187,7 +187,7 @@ $this->title = 'Madetec Solution | Digital Agency';
         <div class="row mt-100 v-center">
             <div class="col-md-12 col-lg-6  text-center mmt-20 px-0">
                 <div class="img-about">
-                    <img src="images/8.png" alt="about">
+                    <img src="/images/8.png" alt="about">
                 </div>
             </div>
             <div class="col-md-12 col-lg-4 mmt-20 about-detail pb-30">
