@@ -31,11 +31,9 @@ if($news->mainPhoto){
 
 <div class="content-wrapper">
     <section class="hero-section">
-        <h2 class="hidden">Slider Section</h2>
         <div class="row">
             <div class="col-sm-12">
-                <img
-                        src="<?= $news->mainPhoto ? $news->mainPhoto->getUploadedFileUrl('file') : null; ?>"
+                <img src="<?= $news->mainPhoto ? $news->mainPhoto->getUploadedFileUrl('file') : null; ?>"
                         style="width: 100%; height:300px; object-fit: cover; -webkit-filter:brightness(0.2) ;filter:brightness(0.2);">
             </div>
         </div>
