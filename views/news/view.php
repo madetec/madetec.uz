@@ -34,20 +34,7 @@ if($news->mainPhoto){
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-
                 <h2 data-aos="fade-up" data-aos-delay="300" data-aos-once="true"><?= $news->title ?></h2>
-                <a href="#" data-scroll-nav="1">
-                    <div id="mouse-scroll">
-                        <div class="mouse">
-                            <div class="mouse-in"></div>
-                        </div>
-                        <div>
-                            <span class="down-arrow-1"></span>
-                            <span class="down-arrow-2"></span>
-                            <span class="down-arrow-3"></span>
-                        </div>
-                    </div>
-                </a>
             </div>
         </div>
     </div>
