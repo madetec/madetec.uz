@@ -93,7 +93,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <div class="mt-up"></div>
 
 <!-- Start About -->
-<section class="about" data-scroll-index="1">
+<section id="about" class="about" data-scroll-index="1">
     <div class="container">
         <div class="row">
             <div class="col-md-10 offset-md-1 text-center">
@@ -205,7 +205,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 </section>
 
 <!-- Portfolio Start -->
-<section class="portfolio bg-main" data-scroll-index="2">
+<section id="portfolio" class="portfolio bg-main" data-scroll-index="2">
     <div class="container">
 
         <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Наши работы</h4>
@@ -299,7 +299,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <!-- Portfolio End -->
 
 <!-- Team Start -->
-<section class="team bg-second" data-scroll-index="3">
+<section id="team" class="team bg-second" data-scroll-index="3">
     <div class="container">
         <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Коллектив</h4>
         <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Невероятная Команда</span></h3>
@@ -427,7 +427,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <!-- Team End -->
 
 <!-- Testimonial Start -->
-<section class="testimonial bg-main" data-scroll-index="4">
+<section id="testimonial" class="testimonial bg-main" data-scroll-index="4">
     <div class="container">
         <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Просто слова</h4>
         <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Отзывы клиентов о работе с нами</span></h3>
@@ -499,7 +499,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <!-- End Blog -->
 
 <!-- Start Contact -->
-<section class="contact bg-main" data-scroll-index="6">
+<section id="contact" class="contact bg-main" data-scroll-index="6">
     <div class="container">
 
         <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Форма</h4>

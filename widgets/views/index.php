@@ -6,7 +6,7 @@ use yii\helpers\Url;
 
 ?>
 <!-- Start Blog -->
-<section class="blog bg-main" data-scroll-index="5">
+<section id="blog" class="blog bg-main" data-scroll-index="5">
     <div class="container">
         <h4 class="min-title text-center" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Какие-то
             статьи</h4>

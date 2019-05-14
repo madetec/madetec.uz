@@ -62,7 +62,7 @@ else:
     <div class="container">
 
         <!-- Logo -->
-        <a class="logo" href="#">
+        <a class="logo" href="/">
             <img src="/images/logo.png" alt="logo">
         </a>
 
@@ -77,22 +77,22 @@ else:
                     <a class="nav-link" href="#">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="1">О нас</a>
+                    <a class="nav-link" href="/#about" data-scroll-nav="1">О нас</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="2">Портфолио</a>
+                    <a class="nav-link" href="/#portfolio" data-scroll-nav="2">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="3">Команда</a>
+                    <a class="nav-link" href="/#team" data-scroll-nav="3">Команда</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="4">Отзывы</a>
+                    <a class="nav-link" href="/#testimonial" data-scroll-nav="4">Отзывы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="5">Блог</a>
+                    <a class="nav-link" href="/#blog" data-scroll-nav="5">Блог</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-scroll-nav="6">Контакты</a>
+                    <a class="nav-link" href="/#contact" data-scroll-nav="6">Контакты</a>
                 </li>
             </ul>
         </div>
