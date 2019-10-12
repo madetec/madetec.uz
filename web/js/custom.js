@@ -22,27 +22,25 @@
         $(".akar-loader").fadeOut("slow");
     });
 
-        var wind = $(window);
-    // navbar scrolling background
-    wind.on("scroll",function () {
-        var bodyScroll = wind.scrollTop(),
-            navbar = $(".navbar"),
-            footer = $(".footer"),
-            header = $(".header");
-        if(bodyScroll > 400){
-            navbar.addClass("nav-scroll"),
-            navbar.css("opacity","1"),
-            footer.css("display", "block"),
-            header.css("z-index", "-3");
-
+    $('.navbar-toggler').on('click', function(){
+        var navbar =  $('.navbar');
+        var color = $(document).find('header').attr('data-color');
+        var state = $(this).attr('aria-expanded');
+        
+        
+        if(state=='false'){
+            console.log(navbar)
+            navbar.css({
+                backgroundColor: color
+            });
+            //navbar.css('backgroundColor', color+'!important');
         }else{
-            navbar.removeClass("nav-scroll"),
-            navbar.css("opacity","0"),
-            footer.css("display", "none"),
-            header.css("z-index", "-2");
+            navbar.css({
+                backgroundColor: 'transparent'
+            });
         }
-    });
-
+        
+    })
 
     AOS.init({
         throttleDelay: 99,
@@ -53,69 +51,20 @@
     //--------------------------------------------------
     // Owl Carousel
     //--------------------------------------------------
-    $('.team .owl-carousel').owlCarousel({
+    $('.reviews .owl-carousel').owlCarousel({
         loop: true,
-        margin: 30,
+        margin: 80,
+        items:1,
         mouseDrag:true,
         autoplay:false,
         dots: true,
         nav: false,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:4
-            }
-        }
+        responsiveClass:false
+
     });
 
-    $('.testimonial .owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        mouseDrag:true,
-        autoplay:false,
-        dots: true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:2
-            }
-        }
-    });
 
-    $('.portfolio .owl-carousel').owlCarousel({
-        animateOut: 'zoomOut',
-        animateIn: 'zoomIn',
-        loop: true,
-        margin: 30,
-        mouseDrag:true,
-        autoplay:false,
-        dots: false,
-        nav: false,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
+
 
     $('.partner .owl-carousel').owlCarousel({
         animateOut: 'zoomOut',
@@ -141,27 +90,7 @@
         }
     });
 
-    $('.portfolio-focus .owl-carousel').owlCarousel({
-        loop: true,
-        margin: 70,
-        mouseDrag:false,
-        autoplay:false,
-        dots: false,
-        nav: false,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                margin: 20,
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    });
+
 
 
     //--------------------------------------------------
@@ -185,9 +114,22 @@
     // Scroll control
     //--------------------------------------------------
     $(window).on("scroll", function(){
-        $('.header').css("opacity", 1 - $(window).scrollTop() / 900),
+        
+        let colorHeader;
         $('.footer').css("opacity", -2 + $(window).scrollTop() / 300);
+        
+        if($(window).scrollTop()>=600){
+            $('.navbar').attr('data-state', 'scroll-down');
+            colorHeader = $(document).find('header').attr('data-color');
+            $('.navbar').css('backgroundColor', colorHeader);
+        }else{
+            $('.navbar').attr('data-state', 'scroll-top');
+            $('.navbar').css('backgroundColor', 'transparent');
+        }
+
     });
+
+    
 
 
     //--------------------------------------------------

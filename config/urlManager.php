@@ -4,6 +4,7 @@ return [
     'showScriptName' => false,
     'rules' => [
         '' => 'site/index',
+        '<_c:\w+>/<_a:[\w\-]+>' => '<_c>/<_a>',
         'links' => 'site/links',
         'sitemap.xml'=>'sitemap/index',
         'captcha' => 'site/captcha',

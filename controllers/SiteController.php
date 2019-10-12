@@ -59,6 +59,28 @@ class SiteController extends Controller
         return $this->render('objects');
     }
 
+    public function actionDevelopment()
+    {
+        return $this->render('development');
+    }
+
+    public function actionDigital()
+    {
+        return $this->render('digital');
+    }
+    public function actionDesign()
+    {
+        return $this->render('design');
+    }
+    public function actionProject()
+    {
+        return $this->render('project');
+    }
+    public function actionWatchVault()
+    {
+        return $this->render('watch-vault');
+    }
+
     /**
      * @param null $body
      * @return string|\yii\web\Response

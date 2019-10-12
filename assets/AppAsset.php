@@ -22,15 +22,14 @@ class AppAsset extends AssetBundle
     public $css = [
         'vendor/bootstrap.min.css',
         'fonts/css/all.css',
-        'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900',
-        'https://fonts.googleapis.com/css?family=Open+Sans',
         'vendor/magnific-popup.css',
-        'https://unpkg.com/aos@2.3.1/dist/aos.css',
+        'css/aos.css',
         'vendor/animate.css',
         'vendor/owl.carousel.css',
         'vendor/owl.theme.default.css',
         'css/style.css',
-        'css/responsive.css',
+        'css/media-screen.css',
+        
     ];
     public $js = [
         'vendor/popper.min.js',
@@ -38,7 +37,7 @@ class AppAsset extends AssetBundle
         'vendor/jquery.magnific-popup.min.js',
         'vendor/owl.carousel.js',
         'vendor/scrollIt.min.js',
-        'https://unpkg.com/aos@2.3.1/dist/aos.js',
+        'js/aos.js',
         'js/custom.js',
     ];
     public $depends = [

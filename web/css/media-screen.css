@@ -1,0 +1,671 @@
+@media screen and (max-width: 1125px) {
+    
+    .text-logo-head {
+    font-size: 2rem;
+    }
+
+    .pic-design{
+    	width:100%;
+    }
+
+     
+
+}
+
+
+@media screen and (max-width: 991px) {
+.navbar .navbar-collapse {
+
+    max-height: 500px;
+    overflow: auto;
+    text-align: center;
+    padding: 10px 0;
+
+    }
+
+    .develop-product .icon-cont {
+    width: 55px;
+    height: 55px;
+    font-size: 1.6rem;
+    padding: 10px 14px;
+    border: 1px solid #bd1206;
+    
+	}
+	.develop-product .text-icon{
+		font-size: .7rem;
+	}
+
+	.bg-design .text-logo-head{
+		font-size: 1.8rem;
+	}
+
+}
+
+
+@media screen and (max-width: 970px) {
+
+	.text-logo-head  {
+    font-size: 1.5rem;
+    } 
+
+    .home-items .icon-cont {
+
+    width: 80px;
+    height: 80px;
+    font-size: 2.2rem;
+    padding: 15px 20px;
+
+    }
+
+    .item-blck-projects .text-main {
+    font-size: .8rem;
+    }
+
+    .logo-companys {
+    width: 150px;
+    }
+
+	h3{
+    font-size: 1.6rem!important;
+	}
+
+	.left-text{
+		border:none;
+	}
+
+	.review-content p{
+    font-size: .9rem;
+    }
+
+   .contact-link, .address p  {
+   font-size:.8rem;
+    }
+
+	.address h4, .madetec-links a{
+    font-size: 1.1rem;
+    }
+
+    .main-content-portfolio {
+    height: 500px;
+    padding-top: 150px!important;
+    }
+
+
+	.contain-project-mid .blck-text-top p{
+    font-size: .8rem!important;
+    }
+}
+
+@media screen and (max-width: 880px) {
+	.develoment-direction .text-logo-head{
+    	font-size: 1.6rem;
+    }
+    .develoment-direction .text-icon {
+    font-size: 1rem;
+	}
+
+	.digital-product .icon-cont{
+		width: 65px;
+    height: 65px;
+    font-size: 2rem;
+    padding: 10px 13px;
+    border: 1px solid #040e75;
+	}
+
+	.digital-product .text-icon{
+		font-size: .7rem;
+	}
+
+	.design-product .icon-cont{
+		width: 60px;
+    	height: 60px;
+    	font-size: 1.7rem;
+	}
+
+	.design-product .text-icon{
+		font-size: .7rem;
+	}
+
+	
+}
+
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .mt-100{
+        margin-top: 40px !important;
+    }
+    
+    .img-head{
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .mmt-20 {
+        margin-top: 30px;
+    }
+    .about-detail {
+        padding-left: 20px;
+    }
+    .video-play {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .video-play a {
+        left: 0;;
+        position: relative;
+        transform: scale(.8);
+    }
+    .main-nav h4{
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .main-button{
+        padding: 10px 20px;
+    }
+    ul.head-navigation li{
+        width: 300px;
+        display: inline-block;
+        padding: 5px 20px !important;
+        margin: 10px 10px;
+    }
+    .left-nav {
+        display: none;
+    }
+    .social-media {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 765px) {
+    
+	.pic-dispaly,
+	.pic-development,
+	.pic-digital,
+	.pic-design,
+	.pic-wv {
+   		display: none;
+    }
+
+    .container-sqr{
+    	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    }
+
+    .text-logo-head {
+    	font-size: 2rem;
+    } 
+
+    .item-blck-projects .text-main {
+    	font-size: .9rem;
+    }
+
+    .dood-project{
+    	margin-top: 15px;
+    }
+
+    .icon-logo-madetec{
+    	margin:0 auto;
+    }
+
+    .madetec-links p{
+    	text-align: center;
+    }
+
+    .contact-info{
+    	margin-top:20px;
+    }
+
+    .contain-info-block .border{
+    	margin-top: 20px;
+    }
+
+    .contain-project-mid{
+    	margin-left:0;
+    	margin-right:0;
+    }
+
+    .develop-product .icon-cont {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    padding: 10px 19px;
+    border: 1px solid #bd1206;
+    
+	}
+	.develop-product .text-icon{
+		font-size: .9rem;
+	}
+
+	.companys-projects .brs-project, .companys-projects .telecom-cart-project, .prj-challenge{
+    	margin-top:20px;
+    }
+
+    .digital-direction .text-logo-head{
+    	font-size: 1.5rem;
+    }
+
+    .blck-client{
+    	width: 60%;
+    	margin: 15px auto;
+    }
+
+    .your-ideas{
+    	padding: 250px;
+    }
+
+    .companys-clients{
+    	padding: 30px 5px 30px;
+    }
+
+    .digital-product .icon-cont{
+		width: 70px;
+    height: 70px;
+    font-size: 2.2rem;
+    padding: 10px 19px;
+    border: 1px solid #040e75;
+	}
+
+	.digital-product .text-icon{
+		font-size: .9rem;
+	}
+
+	.list-direction-develop .icon-cont{
+		width: 70px;
+    	height: 70px;
+    	font-size: 2.2rem;
+    	padding: 15px 16px!important;
+	}
+
+    .design-direction .logo-pic {
+    	width: 150px;
+	}
+
+	.design-direction .text-logo-head {
+    	font-size: 1.6rem;
+	}
+
+	.design-direction .text-icon{
+		font-size:1.2rem;
+	}
+
+	.left-view-design-prj, .right-view-design-prj{
+		margin-top: 20px;
+	}
+
+	.design-product .icon-cont{
+
+		width: 70px;
+    	height: 70px;
+    	font-size: 2rem;
+	}
+
+	.design-product .text-icon{
+		font-size: .9rem;
+	}
+
+	.img-wv{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+
+	.text-wv h2{
+		text-align: left;
+	}
+	.wv-descript-text p{
+		text-align: left!important;
+	}
+
+
+}
+
+
+@media (max-width: 575.98px), (max-height: 500px){
+	.review-content p{
+		line-height:1.4;
+	}
+
+	.reviews{
+		clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
+	}
+
+	.avatar-user{
+		width:50px;
+		height:50px;
+	}
+
+	.name-user h3, .form-contain h3{
+		font-size: 1.3rem!important;
+	}
+
+	.form-contain{
+		width: 85%;
+    	padding: 10px 30px;
+	}
+
+	.form-group input{
+		width:100%;
+		padding: 2px;
+	}
+
+	.controls .row{
+		margin-top:5px!important;
+	}
+
+	.main-button {
+    	padding: 5px 20px;
+	}
+
+	.icon-logo-madetec{
+		width: 40%;
+		margin: 15px 0px;
+	}
+
+	.madetec-links{
+		padding-left:15px;
+	}
+
+	.madetec-links p{
+    	text-align: left;
+    }
+    .line-bot{
+    	display: block;
+    }
+    .address{
+    	padding-top:0!important;
+    }
+    .contact-info h2, .contain-info-block .border p, .address h4, .address p{
+    	text-align: left;
+    }
+    .border{
+    	padding: 15px;
+    }
+    .madetec-links a{
+    	font-size: 1rem;
+    }
+
+    .text-logo-head {
+    	font-size: 1.8rem;
+	}
+
+	.navbar .logo {
+    	width: 150px;
+	}
+
+	.develoment-direction .logo-pic, .digital-direction .logo-pic {
+    width: 120px!important;
+	}	
+
+	.mmt-20 {
+        margin-top: 20px;
+    }
+    .pb-50 {
+        padding-bottom: 30px !important;
+    }
+    .mt-up {
+        margin: 0 !important;
+    }
+    section{
+        padding: 50px 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 15px;
+        line-height: 30px;
+    }
+   p {
+       font-size: 14px !important;
+       line-height: 32px;
+   }
+   /* main-title */
+    h4.min-title {
+        padding-left: 0 !important;
+        text-align: center;
+        color: #f9a766;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+      
+    }
+
+    h3.main-title{
+        padding-left: 0 !important;
+        text-align: center !important;
+        font-size: 18px;
+    }
+    
+    h4.min-title::after{
+        content: ' ';
+        position: absolute;
+        height: 1px;
+        width: 80%;
+        margin-top: 14px;
+        background: #f9a766;
+        right: 10%;
+    }
+    .about h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .mt-100{
+        margin-bottom: 40px !important;
+    }
+    .about h3.main-title {
+        text-align: center !important;
+    }
+    
+    
+    .main-nav h4{
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .main-button{
+        padding: 10px 20px;
+    }
+    ul.head-navigation li{
+        width: 300px;
+        display: inline-block;
+        padding: 5px 20px !important;
+        margin: 10px 10px;
+    }
+    .top-nav span {
+        color:#fff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .left-nav {
+        display: none;
+    }
+    .social-media {
+        display: none;
+    }
+    
+    .mb-down {
+        margin-bottom: 10vh;
+    }
+    .footer {
+        text-align: center !important;
+        position: relative;
+    }
+    .border {
+        padding: 10px;
+        border: none !important;
+    }
+    .border-max {
+        padding: 10px;
+        border: none;
+    }
+    .video-play {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .video-play a {
+        left: 0;;
+        position: relative;
+        transform: scale(.8);
+    }
+    #mouse-scroll{
+        display: none;
+    }
+    h5 {
+        font-size: 15px;
+        margin: 10px 0;
+        line-height: 24px;
+    }
+    .bg-port-head {
+        width: 20%;
+    }
+    .v-2 {
+        text-align: center !important;
+    }
+    .portfolio-focus {
+        padding: 0 30px;
+    }
+    .img-head{
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .about-detail {
+        padding-left: 20px;
+    }
+    .img-port::after {
+        max-width: 469px;
+        height: 180px; 
+    }
+    
+    
+
+}
+
+
+@media (max-width: 470px){
+	.text-logo-head{
+    	font-size: 1.6rem;
+	}
+
+	.form-contain{
+		width: 70%;
+    	left: 5%;
+    	right:100%;
+	}
+
+	.bg-wv .text-logo-head{
+		font-size:1rem;
+	}
+}
+
+
+
+@media (max-width: 400px){
+	.logo-pic {
+    	width: 45%;
+	}
+
+	.text-logo-head{
+		font-size: 1.4rem;
+	}
+
+	.text-logo-head{
+		padding-top: 5px;
+	}
+
+	.form-contain h3, .title-items-project span{
+		font-size: 1.3rem;
+	}
+	
+	.item-blck-projects .text-main{
+		font-size: .8rem!important;
+	}
+
+	.bg-home .btn-pusk{
+		width: 100px;
+	}
+	.review-content{
+		width:90%;
+	}
+
+	.form-contain{
+		width: 65%;
+    	
+	}
+
+	.bg-design .text-logo-head {
+    	font-size: 1.4rem;
+	}
+}
+
+
+@media (max-width: 340px){
+	
+	.form-contain h3, .title-items-project span{
+		font-size: 1.1rem!important;
+	}
+	
+	.name-user h3{
+	font-size: 1.2rem!important;
+	}
+
+	.contact-info h2{
+		font-size: 1.5rem!important;
+	}
+	.form-group input, .form-group textarea{
+		font-size: .9rem;
+	}
+	.main-button {
+    padding: 5px 20px!important;
+	}
+
+	.form-contain{
+		width: 55%;
+    	left: 5%;
+    	right:100%;
+	}
+
+	.ideas-design .form-contain {
+    	width: 65%!important;
+    	left: 1%;
+	}
+	.bg-wv .text-logo-head{
+		font-size:.9rem;
+	}
+
+
+}
+
+
+@media (max-width: 320px){
+	
+   .item-blck-projects .text-main {
+    font-size: .7rem!important;
+	}
+
+	
+
+	.text-logo-head{
+		font-size: 1.2rem;
+	}
+
+
+
+}
+
+
