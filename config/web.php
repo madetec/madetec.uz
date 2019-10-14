@@ -1,37 +1,35 @@
 <?php
 
+use madetec\crm\entities\User;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'madetec',
-    'language' => 'ru',
-    'name' => 'Madetec Solution',
+    'id' => 'MADETEC',
+    'name' => 'madetec',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
+    'language' => ['ru', 'en'],
     'components' => [
+        'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@app/translations',
+                ]
+            ]
+        ],
         'assetManager' => [
             'class' => 'yii\web\AssetManager',
             'bundles' => [
-                        'yii\web\JqueryAsset' => [
-                            'js' => [
-                               'jquery.min.js'
-                            ]
-                        ],
-                        'yii\bootstrap\BootstrapAsset' => [
-                            'css' => [
-                               'css/bootstrap.min.css',
-                            ]
-                        ],
-                        'yii\bootstrap\BootstrapPluginAsset' => [
-                            'js' => [
-                               'js/bootstrap.min.js',
-                            ]
-                        ]
+                'yii\web\JqueryAsset' => ['js' => ['jquery.min.js']],
+                'yii\bootstrap4\BootstrapAsset' => ['css' => ['css/bootstrap.min.css']],
+                'yii\bootstrap4\BootstrapPluginAsset' => ['js' => ['js/bootstrap.min.js']]
             ],
         ],
         'request' => [
@@ -41,7 +39,7 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'identityClass' => \madetec\crm\entities\User::class,
+            'identityClass' => User::class,
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [

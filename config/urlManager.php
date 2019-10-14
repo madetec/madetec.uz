@@ -1,25 +1,19 @@
 <?php
+
+use codemix\localeurls\UrlManager;
+
 return [
+    'class' => UrlManager::class,
+    'languages' => ['ru', 'en'],
     'enablePrettyUrl' => true,
     'showScriptName' => false,
     'rules' => [
         '' => 'site/index',
-        '<_c:\w+>/<_a:[\w\-]+>' => '<_c>/<_a>',
-        'links' => 'site/links',
-        'sitemap.xml'=>'sitemap/index',
-        'captcha' => 'site/captcha',
-        'auth/login' => 'auth/login',
-        'auth/logout' => 'auth/logout',
-        'objects' => 'site/objects',
-        'contact/<body:[\w\-]+>' => 'site/contact',
-        'contact' => 'site/contact',
+        '<_a:(design|development|watch-vault|digital|project|about|contact)>' => 'site/<_a>',
         'about' => 'site/about',
-        'news/index/<page:\d+>/<per-page:\d+>' => 'news/index',
-        'news/index/<page:\d+>' => 'news/index',
-        'news' => 'news/index',
-        'news/<slug:[\w\-]+>' => 'news/view',
-        'thermoplint' => 'services/thermoplint',
-        'turnkey' => 'services/turnkey',
-        'ventilation' => 'services/ventilation',
+        'contact' => 'site/contact',
+        'captcha' => 'site/captcha',
+        'sitemap.xml'=>'sitemap/index',
+        '<_c:[\w+]>/<_a:[\w_-]+>' => '<_c>/<_a>',
     ],
 ];

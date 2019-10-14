@@ -5,6 +5,8 @@
 /* @var $content string */
 
 use app\assets\AppAsset;
+use yii\bootstrap4\Nav;
+use yii\bootstrap4\NavBar;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
@@ -39,60 +41,37 @@ else:
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137783784-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag(){dataLayer.push(arguments);}
-
         gtag('js', new Date());
-
         gtag('config', 'UA-137783784-1');
     </script>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
+<?php
+Navbar::begin([
+    'brandImage' => '/img/new-img/small/logo/madetec.png',
+    'brandOptions' => ['class' => 'logo'],
+    'brandUrl' => '/',
+    'options' => [
+        'class' => ['navbar', 'navbar-expand-md'],
+        'data-state' => 'scroll-top'
+    ]
+]);
+echo Nav::widget([
+    'items' => [
+        ['label' => Yii::t('app','Home'), 'url' => ['/site/index']],
+        ['label' => Yii::t('app','Development'), 'url' => ['/site/development']],
+        ['label' => Yii::t('app','Design'), 'url' => ['/site/design']],
+        ['label' => Yii::t('app','Digital'), 'url' => ['/site/digital']],
+    ],
+    'options' => ['class' => 'navbar-nav ml-auto'],
+]);
+Navbar::end();
+?>
 
 
-
-<!-- Start Navbar -->
-<nav class="navbar navbar-expand-md" data-state = "scroll-top">
-    <div class="container">
-
-        <!-- Logo -->
-        <a class="logo" href="/">
-           <img src="\img\new-img\small\logo\madetec.png" alt="">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar"><i class="fas fa-bars"></i></span>
-        </button>
-
-        <!-- navbar links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="\">Главная</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" data-scroll-nav="1">Услуги</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= Url::to(['/site/project']) ?>">Проекты</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" data-scroll-nav="3">Новости</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" data-scroll-nav="4">Компания</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacts" data-scroll-nav="5">Контакты</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- End Navbar = -->
 
 <?= $content; ?>
 

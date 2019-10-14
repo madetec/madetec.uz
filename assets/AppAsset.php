@@ -20,7 +20,6 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'vendor/bootstrap.min.css',
         'fonts/css/all.min.css',
         'css/aos.css',
         'vendor/animate.min.css',
@@ -28,16 +27,17 @@ class AppAsset extends AssetBundle
         'vendor/owl.theme.default.css',
         'css/style.css',
         'css/media-screen.css',
-        
+
     ];
     public $js = [
-        'vendor/bootstrap.min.js',
         'vendor/owl.carousel.js',
         'vendor/scrollIt.min.js',
         'js/aos.js',
         'js/custom.js',
     ];
     public $depends = [
-        'yii\web\JqueryAsset'
+        'yii\web\JqueryAsset',
+        'yii\bootstrap4\BootstrapAsset',
+        'yii\bootstrap4\BootstrapPluginAsset'
     ];
 }
