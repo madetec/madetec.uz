@@ -50,13 +50,7 @@ else:
 <body>
 <?php $this->beginBody() ?>
 
-<!--Loader -->
-<div class="akar-loader">
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-</div>
-<!-- Loader end -->
+
 
 
 <!-- Start Navbar -->
