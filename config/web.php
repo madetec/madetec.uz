@@ -14,6 +14,26 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'assetManager' => [
+            'class' => 'yii\web\AssetManager',
+            'bundles' => [
+                        'yii\web\JqueryAsset' => [
+                            'js' => [
+                               'jquery.min.js'
+                            ]
+                        ],
+                        'yii\bootstrap\BootstrapAsset' => [
+                            'css' => [
+                               'css/bootstrap.min.css',
+                            ]
+                        ],
+                        'yii\bootstrap\BootstrapPluginAsset' => [
+                            'js' => [
+                               'js/bootstrap.min.js',
+                            ]
+                        ]
+            ],
+        ],
         'request' => [
             'cookieValidationKey' => '0Au5AJjAu0E3WQZQ38HDAP_tHvds42UFV8oCj',
         ],

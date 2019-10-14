@@ -21,10 +21,9 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'vendor/bootstrap.min.css',
-        'fonts/css/all.css',
-        'vendor/magnific-popup.css',
+        'fonts/css/all.min.css',
         'css/aos.css',
-        'vendor/animate.css',
+        'vendor/animate.min.css',
         'vendor/owl.carousel.css',
         'vendor/owl.theme.default.css',
         'css/style.css',
@@ -32,17 +31,13 @@ class AppAsset extends AssetBundle
         
     ];
     public $js = [
-        'vendor/popper.min.js',
         'vendor/bootstrap.min.js',
-        'vendor/jquery.magnific-popup.min.js',
         'vendor/owl.carousel.js',
         'vendor/scrollIt.min.js',
         'js/aos.js',
         'js/custom.js',
     ];
     public $depends = [
-        'yii\web\JqueryAsset',
-//        'yii\bootstrap\BootstrapAsset',
-//        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\web\JqueryAsset'
     ];
 }

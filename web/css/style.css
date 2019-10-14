@@ -678,16 +678,21 @@ h4.min-title::after{
     width: 100%;
     padding: 3px;
 }
-.own-bag input{
+
+
+.own-bag button{
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 5px;
     background: linear-gradient(45deg, #bd1206 33%, #014470 66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0 auto;
-    display: block;
-    border: none;
-    outline: none;
     cursor: pointer;
 }
+
 
 /*----------- Project-Home-------------*/
 
