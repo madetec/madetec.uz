@@ -4,13 +4,21 @@
     font-size: 2rem;
     }
 
-    .pic-design{
+    .pic-design, .pic-dispaly, .pic-digital{
     	width:100%;
     }
 
     .pic-project{
     width: 100%;
     float: right;
+    }
+
+    .pic-wv{
+        width:80%;
+    }
+
+    .pic-development{
+        width:90%;
     }
 
      

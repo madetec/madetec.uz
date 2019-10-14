@@ -34,7 +34,7 @@ $this->title = 'Madetec Solution | Digital';
     </div>
     <div class="col-md-6 contain-rgt-display-img digital-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-digital">
-            <img src="\img\new-img\large\head-container-img\digital.png" alt="" class="img-cover">
+            <img src="\img\new-img\large\head-container-img\Digital.png" alt="" class="img-cover">
         </div>
     </div>
 </header>
