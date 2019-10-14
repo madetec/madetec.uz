@@ -195,7 +195,8 @@
 	.pic-development,
 	.pic-digital,
 	.pic-design,
-	.pic-wv {
+	.pic-wv, 
+    .pic-project {
    		display: none;
     }
 
@@ -573,7 +574,7 @@
 
     .brending-design .prj-challenge .child-content-background{
 
-     background-image:  url('/img/new-img/small/picter/chaleng-bg.jpg');
+     background-image:  url('/img/new-img/small/picter/challenge-bg.jpg');
     }
 
     .brending-design .prj-extravel .child-content-background{
@@ -636,6 +637,10 @@
 	.bg-design .text-logo-head {
     	font-size: 1.4rem;
 	}
+
+    .brending-design h2{
+        font-size:1.3rem;
+    }
 }
 
 

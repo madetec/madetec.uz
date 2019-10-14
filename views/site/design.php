@@ -138,10 +138,7 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="padding-top: 50%;">
-                    <picture>
-                        <source srcset="\img\new-img\small\logo\explore.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
-                        <img src="\img\new-img\large\logo\explore.png" alt="" class="img-cover">
-                    </picture>
+                    <img src="\img\new-img\more\explore.png" alt="" class="img-cover">
                 </div>
             
             </div>
