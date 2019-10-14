@@ -241,6 +241,7 @@ img{
 
 .container-sqr{
     position: relative;
+     -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0 90%);
     clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0 90%);
 }
 
@@ -403,6 +404,7 @@ h4.min-title::after{
 }
 
 .bg-main-container{
+     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
     padding: 120px 0px 200px;
     width: 100%;
@@ -424,6 +426,7 @@ h4.min-title::after{
 /*----About Us---------*/
 .about-us{
     position: relative;
+     -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0 90%);
     clip-path: polygon(0 15%, 100% 0%, 100% 75%, 0 90%);
 
 }
@@ -581,6 +584,7 @@ h4.min-title::after{
 
 
 .reviews{
+    -webkit-clip-path: polygon(0 35%, 100% 20%, 100% 80%, 0 100%);
     clip-path: polygon(0 35%, 100% 20%, 100% 80%, 0 100%);
     position: relative;
 }
@@ -688,10 +692,9 @@ h4.min-title::after{
     text-align: center;
     display: block;
     padding: 5px;
-    background: linear-gradient(45deg, #bd1206 33%, #014470 66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #014470;
     cursor: pointer;
+    background-color: transparent;
 }
 
 
@@ -1411,6 +1414,7 @@ ul li {
                      [ 13. Footer ]
 -----------------------------------------------------------------*/
 .footer {
+    -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
     clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
     
     padding: 80px 0px 10px;
