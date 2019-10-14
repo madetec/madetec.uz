@@ -17,7 +17,12 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="col-md-6 offset-md-1" data-aos="fade-left" data-aos-once="true" style="margin-left:6%;">
                     <div class="logo-head logo-head-develop row">
                     	
-                    	<div class="logo-pic"><img src="\img\new-img\logo\madetec.webp"></div>	
+                    	<div class="logo-pic">
+                           <picture>
+                                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                                <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                            </picture>
+                        </div>	
                     	<span class="text-logo-head pt-5">design</span>
                     </div>
                    
@@ -30,7 +35,7 @@ $this->title = 'Madetec Solution | Digital';
     </div>
     <div class="col-md-6 contain-rgt-display-img digital-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-design">
-            <img src="\img\new-img\head-container-img\design.webp" alt="">
+            <img src="\img\new-img\large\head-container-img\design.png" alt="" class="img-cover">
         </div>
     </div>
 </header>
@@ -82,11 +87,19 @@ $this->title = 'Madetec Solution | Digital';
 
  <section id="design-direction" class="design-direction container-sqr" data-scroll-index="2">
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
-    <img src="\img\new-img\picter\OT1C850-min.webp" alt="" class="bg-about-us img-cover">
+    <picture>
+        <source srcset="\img\new-img\small\picter\OT1C850-min.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <img src="\img\new-img\large\picter\OT1C850-min.jpg" alt="" class="bg-about-us img-cover">
+    </picture>
     <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">Направления</p>
     <div class="container main-content-develop" >
         <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">   	
-            <div class="logo-pic"><img src="\img\new-img\logo\madetec.webp"></div>	
+            <div class="logo-pic">
+                <picture>
+                    <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                </picture>
+            </div>	
             <span class="text-logo-head pt-0">design</span>
          </div>
         <div class="list-direction-develop pt-50">
@@ -125,7 +138,10 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="padding-top: 50%;">
-                    <img src="\img\new-img\logo\explore.webp" alt="">
+                    <picture>
+                        <source srcset="\img\new-img\small\logo\explore.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <img src="\img\new-img\large\logo\explore.png" alt="" class="img-cover">
+                    </picture>
                 </div>
             
             </div>
@@ -138,7 +154,11 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project pt-70">
-                    <img src="\img\new-img\logo\gecko-white.webp" alt="">
+                    
+                    <picture>
+                        <source srcset="\img\new-img\small\logo\gecko-white.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <img src="\img\new-img\large\logo\gecko-white.png" alt="" class="img-cover">
+                    </picture>
                 </div>
             </div>
             </a>
@@ -147,7 +167,11 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project">
-                    <img src="\img\new-img\logo\chalenge.webp" alt="">
+                    
+                    <picture>
+                        <source srcset="\img\new-img\small\logo\chalenge.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <img src="\img\new-img\large\logo\chalenge.png" alt="" class="img-cover">
+                    </picture>
                 </div>
             </div>
             </a>
@@ -218,7 +242,10 @@ $this->title = 'Madetec Solution | Digital';
             <div class="col-md-4 border-max">
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
-                        <img src="\img\new-img\logo\madetec.webp" alt="">
+                        <picture>
+                        <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                    </picture>
                     </div>
                     <p class="mb-0"><a href="">Главная</a></p>
                     <p class="mb-0"><a href="">Услуги</a></p>

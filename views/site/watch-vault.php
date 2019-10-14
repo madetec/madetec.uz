@@ -16,7 +16,12 @@ $this->title = 'Madetec Solution | Digital';
             <div class="row main-head-content">
                 <div class="col-md-6 offset-md-1 pt-30" data-aos="fade-left" data-aos-once="true" style="margin-left:4%;">
                     <div class="logo-head logo-head-wv">
-                        <div class="logo-pic"><img src="\img\new-img\logo\WV-logo.webp"></div>
+                        <div class="logo-pic">
+                            <picture>
+                                <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                                <img src="\img\new-img\large\logo\WV-logo.png" alt="" class="img-cover">
+                            </picture>
+                        </div>
                     	<span class="text-logo-head pt-10">Добро пожаловать в безграничный мир часов</span>
                     </div>
                    
@@ -29,7 +34,7 @@ $this->title = 'Madetec Solution | Digital';
     </div>
     <div class="col-md-6 contain-rgt-display-img digital-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-wv">
-            <img src="\img\new-img\head-container-img\WV1.webp" alt="">
+            <img src="\img\new-img\large\head-container-img\WV1.png" alt="" class="img-cover">
         </div>
     </div>
 </header>
@@ -41,10 +46,13 @@ $this->title = 'Madetec Solution | Digital';
     
     <div class="container">
         <div class="descript-top-block blck-wv-descript row">
-            <div class="left-blck img-wv col-md-6">
-                <img src="\img\new-img\picter\WV2.webp" class="img-contain">
+            <div class="left-blck img-wv col-md-6" data-aos="fade-up" data-aos-once="true" data-aos-duration = "1000">
+                <picture>
+                    <source srcset="\img\new-img\small\picter\WV2.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                    <img src="\img\new-img\large\picter\WV2.jpg" alt="" class="img-contain">
+                </picture>
             </div>
-            <div class="right-blck text-wv col-md-6">
+            <div class="right-blck text-wv col-md-6" data-aos="fade-down" data-aos-once="true" data-aos-duration = "1000">
                 <h2>Watch Vault</h2>
                 <div class="wv-descript-text">
                     <p>Приложение, призванное объединить всех поклонников, коллекционеров и производителей наручных часов.</p>
@@ -54,24 +62,30 @@ $this->title = 'Madetec Solution | Digital';
         </div>
 
         <div class="descript-mid-block blck-wv-descript row">
-            <div class="right-blck text-wv col-md-6">
+            <div class="right-blck text-wv col-md-6" data-aos="fade-up" data-aos-once="true" data-aos-duration = "1000">
                 <h2 class="text-uppercase">Vault and Market</h2>
                 <div class="wv-descript-text">
                     <p class="text-right">Пользователям приложения открыта возможность вносить свои приобретения и информацию о них в собственную электронную коллекцию часов, чтобы никогда не потерять нужные данные и в случае утери или кражи часов, легко найти их через пользователей приложения. Коллекции полностью приватны до тех пор, пока Вы сами не решите поделиться ими с остальным миром. Также в приложении есть возможность приобретать как новые часы напрямую у производителей и представителей брендов, так и редкие экземпляры у коллекционеров. Функция продажи экземпляров из своих коллекций доступна в двух вариациях: по фиксированной цене или с помощью аукциона.</p>
                     
                 </div>
             </div>
-            <div class="left-blck img-wv col-md-6" style="height:400px;">
-                <img src="\img\new-img\picter\watch-v-image.webp" class="img-cover">
+            <div class="left-blck img-wv col-md-6" style="height:400px;" data-aos="fade-down" data-aos-once="true" data-aos-duration = "1000">
+                <picture>
+                    <source srcset="\img\new-img\small\picter\Wv3.jpg" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <img src="\img\new-img\large\picter\WV3.jpg" alt="" class="img-cover">
+                </picture>
             </div>
             
         </div>
 
         <div class="descript-bot-block blck-wv-descript row">
-            <div class="left-blck img-wv col-md-6">
-                <img src="\img\new-img\picter\WV4.webp" class="img-contain">
+            <div class="left-blck img-wv col-md-6" data-aos="fade-up" data-aos-once="true" data-aos-duration = "1000">
+                <picture>
+                    <source srcset="\img\new-img\small\picter\WV4.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                    <img src="\img\new-img\large\picter\WV4.jpg" alt="" class="img-contain">
+                </picture>
             </div>
-            <div class="right-blck text-wv col-md-6">
+            <div class="right-blck text-wv col-md-6" data-aos="fade-down" data-aos-once="true" data-aos-duration = "1000">
                 <h2 class="text-uppercase">Socialize</h2>
                 <div class="wv-descript-text">
                     <p>Предлагает полностью погрузиться в мир наручных часов и взаимодействовать с его поклонниками. Можно не только узнавать о коллекциях знаменитых людей и новостях брендов, но и собирать собственную аудиторию, демонстрируя свои приобретения и публикуя интересные материалы.</p>
@@ -100,7 +114,10 @@ $this->title = 'Madetec Solution | Digital';
             <div class="col-md-4 border-max">
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
-                        <img src="\img\new-img\logo\madetec.webp" alt="">
+                        <picture>
+                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                        </picture>
                     </div>
                     <p class="mb-0"><a href="">Главная</a></p>
                     <p class="mb-0"><a href="">Услуги</a></p>

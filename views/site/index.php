@@ -19,7 +19,13 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="col-md-6 offset-md-1" data-aos="fade-left" data-aos-once="true" style="margin-left:6%;">
                     <div class="logo-head logo-head-home row">
                         <span class="text-logo-head">Проект</span>
-                        <div class="logo-pic"><img src="\img\new-img\logo\madetec.webp"></div>  
+                        <div class="logo-pic">
+                            
+                            <picture>
+                                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)">
+                                <img src="\img\new-img\large\logo\madetec.png" alt="">
+                            </picture>
+                        </div>  
                     </div>
                     <div class="desript-project row">
                         <h4>Доверьте <span>процветание</span> своего бизнеса <span>профессионалам</span>.</h4>
@@ -34,7 +40,7 @@ $this->title = 'Madetec Solution | Digital Agency';
     </div>
     <div class="col-md-6 contain-rgt-display-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-dispaly">
-            <img src="img\new-img\head-container-img\display.webp" alt="">
+            <img src="\img\new-img\large\head-container-img\display.png" alt="">
         </div>
     </div>
 </header>
@@ -66,7 +72,10 @@ $this->title = 'Madetec Solution | Digital Agency';
 
                 <div class="madetec-development item-blck-projects mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
                     <div class="main-wrap-project">
-                        <img src="img\new-img\picter\developer.webp" alt="">
+                        <picture>
+                            <source srcset="\img\new-img\small\picter\developer.jpg" type="image/webp" media="(max-width: 600px)">
+                            <img src="\img\new-img\large\picter\developer.jpg" alt="">
+                        </picture>
                         <div class="wrap-pic-filt"></div>
                         <div class="text-blck-project">
                             <p class="title-items-project"><span>Madetec</span> development</p>
@@ -81,7 +90,11 @@ $this->title = 'Madetec Solution | Digital Agency';
             <a href="<?= Url::to(['/site/digital']) ?>" class="col-md-6">
                 <div class="madetec-digital item-blck-projects mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
                 <div class="main-wrap-project">
-                    <img src="img\new-img\picter\blur-noutbook.webp" alt="">
+                    
+                     <picture>
+                        <source srcset="\img\new-img\small\picter\blur-noutbook.jpg" type="image/webp" media="(max-width: 600px)">
+                        <img src="\img\new-img\large\picter\blur-noutbook.jpg" alt="">
+                    </picture>
                     <div class="wrap-pic-filt"></div>
                     <div class="text-blck-project">
                         <p class="title-items-project"><span>Madetec</span> digital</p>
@@ -96,7 +109,11 @@ $this->title = 'Madetec Solution | Digital Agency';
             <a href="<?= Url::to(['/site/design']) ?>" class="col-md-6">
                 <div class="madetec-design item-blck-projects  mt-20" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
                 <div class="main-wrap-project">
-                    <img src="img\new-img\picter\OT1C850-min.webp" alt="">
+            
+                     <picture>
+                        <source srcset="\img\new-img\small\picter\OT1C850-min.jpg" type="image/webp" media="(max-width: 600px)">
+                        <img src="\img\new-img\large\picter\OT1C850-min.jpg" alt="">
+                    </picture>
                     <div class="wrap-pic-filt"></div>
                     <div class="text-blck-project">
                         <p class="title-items-project"><span>Madetec</span> design</p>
@@ -144,7 +161,10 @@ $this->title = 'Madetec Solution | Digital Agency';
 
 <section id="about-us" class="about-us">
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
-    <img src="img\new-img\picter\blur-noutbook.webp" alt="" class="bg-about-us img-cover">
+    <picture>
+        <source srcset="\img\new-img\small\picter\code.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <img src="\img\new-img\large\picter\code.jpg" alt="" class="bg-about-us img-cover">
+    </picture>
     <div class="container main-content-about">
         <h1 class="text-center mb-0" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">О нас</h1>
         <p class="text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">новая эра нашего бизнеса</p>
@@ -160,7 +180,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
-                    <img src="img\new-img\logo\WV-logo.webp" alt="">
+                    <picture>
+                        <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <img src="\img\new-img\large\logo\WV-logo.png" alt="" >
+                    </picture>
                 </div>
                 <div class="descript-project" style="z-index:2; position:relative;">
                     <p class="text-center">приложение, призванное объединить всех поклонников, коллекционеров и производителей
@@ -186,7 +209,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
-                    <img src="img\new-img\logo\BRS-logo.webp" alt="">
+                    <img src="\img\new-img\more\BRS-logo.png" alt="" >
                 </div>
                 <div class="descript-project" style="z-index:2; position:relative;">
                     <p class="text-center">первый в Узбекистане программный продукт для операций внутри компаний,
@@ -199,10 +222,13 @@ $this->title = 'Madetec Solution | Digital Agency';
         <a href="" class="col-md-4">
         <div class="contain-project-side dood-project" data-aos="fade-down">
             <div class="main-content-portfolio img-hover">
-                 <div class="child-content-background"></div>
+                <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
-                    <img src="img\new-img\logo\Dood-logo.webp" alt="">
+                   <picture>
+                        <source srcset="\img\new-img\small\logo\Dood-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <img src="\img\new-img\large\logo\Dood-logo.png" alt="" >
+                    </picture>
                 </div>
                 <div class="descript-project" style="z-index:2; position:relative;">
                     <p class="text-center">новое слово в мире интернет магазинов и электронной комерции,
@@ -219,11 +245,18 @@ $this->title = 'Madetec Solution | Digital Agency';
 <!-- Reviews Start -->
 <section id="reviews" class="reviews" data-scroll-index="1">
     <div class="wrap-pic-filt" style="z-index:1;"></div>
-    <img src="img\new-img\picter\company-coperation.webp" alt="" class="bg-img-review img-cover">
+    <picture>
+        <source srcset="\img\new-img\small\picter\company-coperation.jpg" type="image/webp" media="(max-width: 600px)" class="bg-img-review img-cover">
+        <img src="\img\new-img\large\picter\company-coperation.jpg" alt="" class="bg-img-review img-cover">
+    </picture>
     <div class="container pt-70">
         <p class="reviews-top mb-0 mt-20" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Отзывы о</p>
         <span class="logo-companys" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
-            <img src="img\new-img\logo\madetec.webp" alt="" class="img-cover">
+           
+            <picture>
+                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+            </picture>
         </span>
 
 
@@ -440,7 +473,10 @@ $this->title = 'Madetec Solution | Digital Agency';
             <div class="col-md-4 border-max">
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
-                        <img src="img\new-img\logo\madetec.webp" alt="">
+                        <picture>
+                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                        </picture>
                     </div>
                     <p class="mb-0"><a href="">Главная</a></p>
                     <p class="mb-0"><a href="">Услуги</a></p>

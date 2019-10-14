@@ -8,6 +8,11 @@
     	width:100%;
     }
 
+    .pic-project{
+    width: 100%;
+    float: right;
+    }
+
      
 
 }
@@ -257,7 +262,7 @@
     }
 
     .your-ideas{
-    	padding: 250px;
+    	padding: 250px 0px;
     }
 
     .companys-clients{
@@ -345,7 +350,7 @@
 	}
 
 	.form-contain{
-		width: 85%;
+		
     	padding: 10px 30px;
 	}
 
@@ -551,6 +556,33 @@
         max-width: 469px;
         height: 180px; 
     }
+
+
+
+    .watch-v-project .child-content-background{
+
+    background-image: url('../img/new-img/small/picter/WV3.jpg');
+
+    }
+
+    .brending-design .prj-gecko .child-content-background{
+
+     background-image:  url('/img/new-img/small/picter/gecko-bg.jpg');
+    }
+
+
+    .brending-design .prj-challenge .child-content-background{
+
+     background-image:  url('/img/new-img/small/picter/chaleng-bg.jpg');
+    }
+
+    .brending-design .prj-extravel .child-content-background{
+    background-image:  url('/img/new-img/small/picter/explore-bg.jpg');
+    }
+
+    .form-contain{
+        width: 90%;
+    }
     
     
 
@@ -562,11 +594,7 @@
     	font-size: 1.6rem;
 	}
 
-	.form-contain{
-		width: 70%;
-    	left: 5%;
-    	right:100%;
-	}
+	
 
 	.bg-wv .text-logo-head{
 		font-size:1rem;
@@ -603,10 +631,7 @@
 		width:90%;
 	}
 
-	.form-contain{
-		width: 65%;
-    	
-	}
+	
 
 	.bg-design .text-logo-head {
     	font-size: 1.4rem;
@@ -634,19 +659,13 @@
     padding: 5px 20px!important;
 	}
 
-	.form-contain{
-		width: 55%;
-    	left: 5%;
-    	right:100%;
-	}
+	
 
-	.ideas-design .form-contain {
-    	width: 65%!important;
-    	left: 1%;
-	}
 	.bg-wv .text-logo-head{
 		font-size:.9rem;
 	}
+
+    
 
 
 }
@@ -664,7 +683,11 @@
 		font-size: 1.2rem;
 	}
 
+    .form-contain .main-button{
+        font-size:.8rem;
+    }
 
+    
 
 }
 

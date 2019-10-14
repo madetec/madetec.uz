@@ -16,7 +16,12 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="col-md-6 offset-md-1" data-aos="fade-left" data-aos-once="true" style="margin-left:6%;">
                     <div class="logo-head logo-head-develop row">
                     	
-                    	<div class="logo-pic"><img src="\img\new-img\logo\madetec.webp"></div>	
+                    	<div class="logo-pic">
+                            <picture>
+                                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                                <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                            </picture>
+                        </div>	
                     	<span class="text-logo-head pt-5">digital</span>
                     </div>
                    
@@ -29,7 +34,7 @@ $this->title = 'Madetec Solution | Digital';
     </div>
     <div class="col-md-6 contain-rgt-display-img digital-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-digital">
-            <img src="\img\new-img\head-container-img\digital.webp" alt="">
+            <img src="\img\new-img\large\head-container-img\digital.png" alt="" class="img-cover">
         </div>
     </div>
 </header>
@@ -82,11 +87,20 @@ $this->title = 'Madetec Solution | Digital';
 
  <section id="digital-direction" class="digital-direction container-sqr" data-scroll-index="2">
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
-    <img src="\img\new-img\picter\blur-man.webp" alt="" class="bg-about-us img-cover">
+    
+    <picture>
+        <source srcset="\img\new-img\small\picter\blur-man.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <img src="\img\new-img\large\picter\blur-man.jpg" alt="" class="bg-about-us img-cover">
+    </picture>
     <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">Направления</p>
     <div class="container main-content-develop" >
         <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">   	
-            <div class="logo-pic"><img src="\img\new-img\logo\madetec.webp"></div>	
+            <div class="logo-pic">
+                <picture>
+                    <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
+                </picture>
+            </div>	
             <span class="text-logo-head pt-0">digital</span>
          </div>
         <div class="list-direction-develop pt-50">
@@ -120,28 +134,54 @@ $this->title = 'Madetec Solution | Digital';
     <div class="container row justify-content-between pt-30">
         
         <div class="blck-client col-md-3 mb-20">
-            <img src="\img\new-img\logo\ielts.webp" alt="" class="img-contain">
+            
+            <picture>
+                <source srcset="\img\new-img\small\logo\ielts.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\ielts.jpg" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
-            <img src="\img\new-img\logo\telecom.webp" alt="" class="img-contain">
+            
+            <picture>
+                <source srcset="\img\new-img\small\logo\telecom.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\telecom.jpg" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
-            <img src="\img\new-img\logo\w-v-gray.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\w-v-gray.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\w-v-gray.jpg" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
-            <img src="\img\new-img\logo\cambridg.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\cambridg.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\cambridg.jpg" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3">
-            <img src="\img\new-img\logo\nestle.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\nestle.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\nestle.png" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3">
-            <img src="\img\new-img\logo\gecko.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\gecko.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\gecko.png" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3">
-            <img src="\img\new-img\logo\aroma.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\aroma.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\aroma.png" alt="" class="img-contain">
+            </picture>
         </div>
         <div class="blck-client col-md-3">
-            <img src="\img\new-img\logo\education.webp" alt="" class="img-contain">
+            <picture>
+                <source srcset="\img\new-img\small\logo\education.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <img src="\img\new-img\large\logo\education.png" alt="" class="img-contain">
+            </picture>
         </div>
         
 
@@ -209,7 +249,10 @@ $this->title = 'Madetec Solution | Digital';
             <div class="col-md-4 border-max">
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
-                        <img src="\img\new-img\logo\madetec.webp" alt="">
+                        <picture>
+                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                            <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-contain">
+                        </picture>
                     </div>
                     <p class="mb-0"><a href="">Главная</a></p>
                     <p class="mb-0"><a href="">Услуги</a></p>

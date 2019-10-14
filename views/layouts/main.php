@@ -65,7 +65,7 @@ else:
 
         <!-- Logo -->
         <a class="logo" href="/">
-            <img src="/img/new-img/logo/madetec.webp" alt="logo">
+           <img src="\img\new-img\small\logo\madetec.png" alt="">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -18,9 +18,9 @@
     //--------------------------------------------------
     // Preloader 
     //--------------------------------------------------
-    jQuery(window).on("load", function () {
+    /*jQuery(window).on("load", function () {
         $(".akar-loader").fadeOut("slow");
-    });
+    });*/
 
     $('.navbar-toggler').on('click', function(){
         var navbar =  $('.navbar');
@@ -29,7 +29,7 @@
         
         
         if(state=='false'){
-            console.log(navbar)
+           
             navbar.css({
                 backgroundColor: color
             });
@@ -199,12 +199,12 @@
     })
     
     owl.on('translated.owl.carousel', function(event) {
-        console.log (event.item.index, event.page.count);
+        
         
         if (event.item.index == (event.page.count - 1))  {
             if (round < 1) {
             round++
-            console.log (round);
+           
             } else {
             owl.trigger('stop.owl.autoplay');
             var owlData = owl.data('owl.carousel');
