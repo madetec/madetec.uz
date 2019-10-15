@@ -27,7 +27,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                             </picture>
                         </div>  
                     </div>
-                    <div class="desript-project row">
+                    <div class="desript-project row" style="padding-right:5px;">
                         <h4>Доверьте <span>процветание</span> своего бизнеса <span>профессионалам</span>.</h4>
                     </div>
                     <a class="btn-pusk btn-link row">Запуск</a>
