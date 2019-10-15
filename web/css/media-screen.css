@@ -341,9 +341,15 @@
    
     position: absolute;
     width: 100%;
-    top: 100%;
+    top: 99%;
     left: 0px;
 
+    }
+    .prj-gecko .logo-project {
+        padding-top:30px!important;
+    }
+    .prj-challenge .logo-project{
+        width:40%;
     }
 
 

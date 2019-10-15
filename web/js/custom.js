@@ -15,12 +15,6 @@
         });
     });
 
-    //--------------------------------------------------
-    // Preloader 
-    //--------------------------------------------------
-    /*jQuery(window).on("load", function () {
-        $(".akar-loader").fadeOut("slow");
-    });*/
 
     $('.navbar-toggler').on('click', function(){
         var navbar =  $('.navbar');
@@ -37,7 +31,7 @@
             dropdown.css({
                  backgroundColor: color
             })
-            //navbar.css('backgroundColor', color+'!important');
+            
         }else{
 
             if(!($(window).scrollTop()>=600)){
@@ -76,34 +70,6 @@
 
 
 
-
-    $('.partner .owl-carousel').owlCarousel({
-        animateOut: 'zoomOut',
-        animateIn: 'zoomIn',
-        loop: true,
-        margin: 70,
-        mouseDrag:true,
-        autoplay:false,
-        dots: false,
-        nav: false,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:2,
-                margin: 20,
-            },
-            600:{
-                items:4
-            },
-            1000:{
-                items:5
-            }
-        }
-    });
-
-
-
-
     //--------------------------------------------------
     // Custom Buttom
     //--------------------------------------------------
@@ -133,9 +99,11 @@
             $('.navbar').attr('data-state', 'scroll-down');
             colorHeader = $(document).find('header').attr('data-color');
             $('.navbar').css('backgroundColor', colorHeader);
+
         }else{
             $('.navbar').attr('data-state', 'scroll-top');
             $('.navbar').css('backgroundColor', 'transparent');
+
         }
 
     });
