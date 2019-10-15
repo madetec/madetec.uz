@@ -383,7 +383,7 @@ h4.min-title::after{
     min-height: 70px;
     padding: 0;
     opacity: 1;
-    transition: all .6s ease;
+    transition: all .4s ease;
 }
 .navbar .navbar-nav .nav-link {
     font-size: 14px;
@@ -1205,6 +1205,10 @@ background: linear-gradient(135deg, rgba(2,25,117,1) 0%, rgba(0,9,41,1) 100%);
    opacity: 1;
 }
 
+.navbar-toggler-icon{
+    padding-top:10px;
+    color: #ffff;
+}
 
 .valign {
     display: -webkit-box;

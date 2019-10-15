@@ -24,6 +24,7 @@
 
     $('.navbar-toggler').on('click', function(){
         var navbar =  $('.navbar');
+        var dropdown = $('.navbar-collapse');
         var color = $(document).find('header').attr('data-color');
         var state = $(this).attr('aria-expanded');
         
@@ -33,11 +34,21 @@
             navbar.css({
                 backgroundColor: color
             });
+            dropdown.css({
+                 backgroundColor: color
+            })
             //navbar.css('backgroundColor', color+'!important');
         }else{
-            navbar.css({
+
+            if(!($(window).scrollTop()>=600)){
+                navbar.css({
                 backgroundColor: 'transparent'
-            });
+                });
+            }
+            
+            dropdown.css({
+                 backgroundColor: 'transparent'
+            })
         }
         
     })

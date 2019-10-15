@@ -54,6 +54,7 @@ Navbar::begin([
     'brandImage' => '/img/new-img/small/logo/madetec.png',
     'brandOptions' => ['class' => 'logo'],
     'brandUrl' => '/',
+    'togglerContent' => '<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>',
     'options' => [
         'class' => ['navbar', 'navbar-expand-md'],
         'data-state' => 'scroll-top'

@@ -33,6 +33,9 @@
     overflow: auto;
     text-align: center;
     padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    top: 100%;
 
     }
 
