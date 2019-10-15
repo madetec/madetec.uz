@@ -30,27 +30,7 @@ class SitemapController extends Controller
             ],
 
             [
-                'loc' => $host . Url::to(['site/objects']),
-                'lastmod' => '2019-01-22'
-            ],
-            [
                 'loc' => $host . Url::to(['site/about']),
-                'lastmod' => '2019-01-22'
-            ],
-            [
-                'loc' => $host . Url::to(['services/thermoplint']),
-                'lastmod' => '2019-01-22'
-            ],
-            [
-                'loc' => $host . Url::to(['services/turnkey']),
-                'lastmod' => '2019-01-22'
-            ],
-            [
-                'loc' => $host . Url::to(['services/ventilation']),
-                'lastmod' => '2019-01-22'
-            ],
-            [
-                'loc' => $host . Url::to(['news/index']),
                 'lastmod' => '2019-01-22'
             ],
         ];

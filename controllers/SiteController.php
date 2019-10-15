@@ -54,10 +54,6 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    public function actionObjects()
-    {
-        return $this->render('objects');
-    }
 
     public function actionDevelopment()
     {
@@ -102,11 +98,4 @@ class SiteController extends Controller
             'model' => $form,
         ]);
     }
-
-
-    public function actionLinks()
-    {
-        return $this->render('links');
-    }
-
 }
