@@ -66,6 +66,7 @@ echo Nav::widget([
         ['label' => Yii::t('app','Development'), 'url' => ['/site/development']],
         ['label' => Yii::t('app','Design'), 'url' => ['/site/design']],
         ['label' => Yii::t('app','Digital'), 'url' => ['/site/digital']],
+         ['label' => Yii::t('app','Projects'), 'url' => ['/site/project']],
     ],
     'options' => ['class' => 'navbar-nav ml-auto'],
 ]);

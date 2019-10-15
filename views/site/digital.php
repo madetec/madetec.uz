@@ -48,32 +48,32 @@ $this->title = 'Madetec Solution | Digital';
     	<p class="text-center grey" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Вашими проектами непосредственно займутся ведущие маркетологи и дизайнеры <span>Madetec</span></p>
     </div>	
      <div class="container-text-bot row mt-30">
-        <div class="left-text col-md-4" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+        <div class="left-text col-md-4" data-aos="fade-up" data-aos-transition="1000" data-aos-once="true">
             <p class="title-text grey pt-10">Как работает диджитал?</p>
             <p class="main-text-bot grey">Создание программного обеспечения любой сложности происходит поэтапно, каждый этап утверждается Вами. Каждый этап будет сопровождаться высококвалифицированными специалистами нашей организации. </p>
         </div>
          <div class="right-text col-md-8">
              <ul class="row justify-content-around">
-                 <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-duration="800" data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont icons-70">
+                 <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70">
                         <i class="fas fa-city"></i>
                     </div>
                      <p class="text-icon grey">Расскажите о своем бизнесе</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70" style="padding: 10px 20px;"><i class="fas fa-clipboard"></i></div>
+                     <div class="icon-cont text-center icons-70"><i class="fas fa-clipboard"></i></div>
                      <p class="text-icon grey">Мы создадим медиаплан</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70" style="padding: 10px 20px;"><i class="fas fa-paint-brush"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70"><i class="fas fa-paint-brush"></i></div>
                      <p class="text-icon grey">Подберем уникальные дизайн</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-delay="600" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70"><i class="fas fa-ad"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70"><i class="fas fa-ad"></i></div>
                      <p class="text-icon grey">Раскрутим вашу страницу</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70"><i class="fas fa-bullhorn"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70"><i class="fas fa-bullhorn"></i></div>
                      <p class="text-icon grey">Расскажем о ней всему миру</p>
                  </li>
              </ul>
@@ -89,15 +89,15 @@ $this->title = 'Madetec Solution | Digital';
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
     
     <picture>
-        <source srcset="\img\new-img\small\picter\blur-man.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <source srcset="\img\new-img\small\picter\blur-man.jpg"  media="(max-width: 600px)" class="bg-about-us img-cover">
         <img src="\img\new-img\large\picter\blur-man.jpg" alt="" class="bg-about-us img-cover">
     </picture>
-    <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">Направления</p>
+    <p class="text-center mb-0 top-txt-blck" data-aos="fade-up"  data-aos-once="true" data-aos-transition="1000">Направления</p>
     <div class="container main-content-develop" >
         <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">   	
             <div class="logo-pic">
                 <picture>
-                    <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                     <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                 </picture>
             </div>	
@@ -105,20 +105,20 @@ $this->title = 'Madetec Solution | Digital';
          </div>
         <div class="list-direction-develop pt-50">
         	<ul class="row">
-        		<li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="600" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont"><i class="fab fa-facebook-square"></i></div>
+        		<li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fab fa-facebook-square"></i></div>
                      <p class="text-icon">Социальные сети</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="800" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont" style="padding: 15px 25px;"><i class="fab fa-telegram-plane"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fab fa-telegram-plane"></i></div>
                      <p class="text-icon">Все виды мессенджеров</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="1000" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont" style="padding: 15px;"><i class="fas fa-broadcast-tower"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-broadcast-tower"></i></div>
                      <p class="text-icon">Активности на цифровой платформе</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="1200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont"><i class="fas fa-ad"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-ad"></i></div>
                      <p class="text-icon">Реклама и продвижение</p>
                  </li>
                 
@@ -136,50 +136,50 @@ $this->title = 'Madetec Solution | Digital';
         <div class="blck-client col-md-3 mb-20">
             
             <picture>
-                <source srcset="\img\new-img\small\logo\ielts.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\ielts.jpg" media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\ielts.jpg" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
             
             <picture>
-                <source srcset="\img\new-img\small\logo\telecom.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\telecom.jpg" media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\telecom.jpg" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
             <picture>
-                <source srcset="\img\new-img\small\logo\w-v-gray.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\w-v-gray.jpg"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\w-v-gray.jpg" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3 mb-20">
             <picture>
-                <source srcset="\img\new-img\small\logo\cambridg.jpg" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\cambridg.jpg"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\cambridg.jpg" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3">
             <picture>
-                <source srcset="\img\new-img\small\logo\nestle.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\nestle.png"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\nestle.png" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3">
             <picture>
-                <source srcset="\img\new-img\small\logo\gecko.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\gecko.png"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\gecko.png" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3">
             <picture>
-                <source srcset="\img\new-img\small\logo\aroma.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\aroma.png"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\aroma.png" alt="" class="img-contain">
             </picture>
         </div>
         <div class="blck-client col-md-3">
             <picture>
-                <source srcset="\img\new-img\small\logo\education.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                <source srcset="\img\new-img\small\logo\education.png"  media="(max-width: 600px)" class="img-contain">
                 <img src="\img\new-img\large\logo\education.png" alt="" class="img-contain">
             </picture>
         </div>
@@ -215,7 +215,7 @@ $this->title = 'Madetec Solution | Digital';
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
                         <picture>
-                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-contain">
+                            <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-contain">
                             <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-contain">
                         </picture>
                     </div>

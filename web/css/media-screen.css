@@ -28,14 +28,11 @@
 
 @media screen and (max-width: 991px) {
 .navbar .navbar-collapse {
-
     max-height: 500px;
     overflow: auto;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    top: 100%;
+    
 
     }
 
@@ -43,7 +40,7 @@
     width: 55px;
     height: 55px;
     font-size: 1.6rem;
-    padding: 10px 14px;
+    padding: 10px 0px;
     border: 1px solid #bd1206;
     
 	}
@@ -69,7 +66,7 @@
     width: 80px;
     height: 80px;
     font-size: 2.2rem;
-    padding: 15px 20px;
+    padding: 15px 0px;
 
     }
 
@@ -124,7 +121,7 @@
 		width: 65px;
     height: 65px;
     font-size: 2rem;
-    padding: 10px 13px;
+    padding: 10px 0px;
     border: 1px solid #040e75;
 	}
 
@@ -212,6 +209,7 @@
     }
 
     .container-sqr{
+        -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
     	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
     }
 
@@ -252,7 +250,7 @@
     width: 70px;
     height: 70px;
     font-size: 2rem;
-    padding: 10px 19px;
+    padding: 10px 0px;
     border: 1px solid #bd1206;
     
 	}
@@ -285,7 +283,7 @@
 		width: 70px;
     height: 70px;
     font-size: 2.2rem;
-    padding: 10px 19px;
+    padding: 10px 0px;
     border: 1px solid #040e75;
 	}
 
@@ -297,7 +295,7 @@
 		width: 70px;
     	height: 70px;
     	font-size: 2.2rem;
-    	padding: 15px 16px!important;
+    	padding: 15px 0px!important;
 	}
 
     .design-direction .logo-pic {
@@ -339,6 +337,15 @@
 		text-align: left!important;
 	}
 
+    .navbar .navbar-collapse {
+   
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+
+    }
+
 
 }
 
@@ -349,6 +356,7 @@
 	}
 
 	.reviews{
+        -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
 		clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
 	}
 
@@ -416,7 +424,7 @@
 	}
 
 	.develoment-direction .logo-pic, .digital-direction .logo-pic {
-    width: 120px!important;
+        width: 120px!important;
 	}	
 
 	.mmt-20 {

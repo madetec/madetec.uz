@@ -33,7 +33,7 @@ $this->title = 'Madetec Solution | Digital';
             </div>
         </div>
     </div>
-    <div class="col-md-6 contain-rgt-display-img digital-img" data-aos="fade-right"  data-aos-once="true">
+    <div class="col-md-6 contain-rgt-display-img design-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-design">
             <img src="\img\new-img\large\head-container-img\design.png" alt="" class="img-cover">
         </div>
@@ -54,26 +54,26 @@ $this->title = 'Madetec Solution | Digital';
         </div>
          <div class="right-text col-md-8">
              <ul class="row justify-content-around">
-                 <li class="item-text-icon col-md-2" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70" style="padding: 10px 22px;">
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70" >
                         <i class="fas fa-lightbulb"></i>
                     </div>
                      <p class="text-icon grey">Поделитесь с нами идеей</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-delay="600" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70" style="padding: 10px 20px;"><i class="fas fa-pencil-ruler"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70" ><i class="fas fa-pencil-ruler"></i></div>
                      <p class="text-icon grey">Мы создадим эскиз</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70" style="padding: 10px 20px;"><i class="fas fa-paint-brush"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70" ><i class="fas fa-paint-brush"></i></div>
                      <p class="text-icon grey">Подберем уникальные цвета</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-delay="600" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70"><i class="fas fa-images"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70"><i class="fas fa-images"></i></div>
                      <p class="text-icon grey">Разработаем дизайн</p>
                  </li>
-                 <li class="item-text-icon col-md-2" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont icons-70"><i class="fab fa-react"></i></div>
+                 <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center icons-70"><i class="fab fa-react"></i></div>
                      <p class="text-icon grey">Вы получите готовый уникальный дизайн</p>
                  </li>
              </ul>
@@ -91,9 +91,9 @@ $this->title = 'Madetec Solution | Digital';
         <source srcset="\img\new-img\small\picter\OT1C850-min.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
         <img src="\img\new-img\large\picter\OT1C850-min.jpg" alt="" class="bg-about-us img-cover">
     </picture>
-    <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-transition="1000">Направления</p>
+    <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-once="true" data-aos-transition="1000">Направления</p>
     <div class="container main-content-develop" >
-        <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">   	
+        <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-once="true" data-aos-transition="1000">   	
             <div class="logo-pic">
                 <picture>
                     <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
@@ -104,20 +104,20 @@ $this->title = 'Madetec Solution | Digital';
          </div>
         <div class="list-direction-develop pt-50">
         	<ul class="row">
-        		<li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="600" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont"><i class="fas fa-desktop"></i></div>
+        		<li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-desktop"></i></div>
                      <p class="text-icon">Приложения и веб сайты</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="800" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont" style="padding: 15px 25px;"><i class="fas fa-fire"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-fire"></i></div>
                      <p class="text-icon">Логотип и брендинг</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="1000" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont"><i class="fas fa-book-reader"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-book-reader"></i></div>
                      <p class="text-icon">Корпоративная идентика</p>
                  </li>
-                 <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-delay="1200" data-aos-once="true" data-aos-transition="1000">
-                     <div class="icon-cont"><i class="fas fa-image"></i></div>
+                 <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
+                     <div class="icon-cont text-center"><i class="fas fa-image"></i></div>
                      <p class="text-icon">Печатные материалы</p>
                  </li>
                 
@@ -134,7 +134,7 @@ $this->title = 'Madetec Solution | Digital';
        
             <div class="left-view-design-prj col-md-5">
             <a href="">
-            <div class="item-view-prj prj-extravel img-hover" data-aos="fade-up" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">
+            <div class="item-view-prj prj-extravel img-hover" data-aos="fade-up"  data-aos-once="true" data-aos-transition="1000">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="padding-top: 50%;">
@@ -147,7 +147,7 @@ $this->title = 'Madetec Solution | Digital';
         
         <div class="right-view-design-prj col-md-5 row">
             <a href="" class="align-self-start">
-            <div class="item-view-prj prj-gecko img-hover" data-aos="fade-down" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">
+            <div class="item-view-prj prj-gecko img-hover" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project pt-70">
@@ -160,7 +160,7 @@ $this->title = 'Madetec Solution | Digital';
             </div>
             </a>
             <a href="" class="align-self-end">
-            <div class="item-view-prj prj-challenge bg-position img-hover" data-aos="fade-down" data-aos-delay="400" data-aos-once="true" data-aos-transition="1000">
+            <div class="item-view-prj prj-challenge bg-position img-hover" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project">

@@ -45,7 +45,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\WV-logo.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\WV-logo.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -78,7 +78,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\Telecomcar.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\Telecomcar.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\Telecomcar.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -97,7 +97,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\Dood-logo.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\Dood-logo.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\Dood-logo.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -118,7 +118,7 @@ $this->title = 'Madetec Solution | Project';
 <section id="brending" class="brending-design project-pg" data-scroll-index="3">
     <h2 class="text-center text-dark font-weight-bold">Брендинг и Дизайн</h2>
     <div class="container row justify-content-center pt-30">
-        <a href="" class="col-md-6">
+        <a href="" class="col-md-6" data-aos="fade-down" data-aos-once="true">
             <div class="left-view-design-prj">
             <div class="item-view-prj prj-extravel img-hover">
                 <div class="child-content-background"></div>
@@ -132,25 +132,25 @@ $this->title = 'Madetec Solution | Project';
         </a>
         
             <div class="right-view-design-prj col-md-6 row">
-            <a href="" class="align-self-start">
+            <a href="" class="align-self-start" data-aos="fade-up" data-aos-once="true">
                 <div class="item-view-prj prj-gecko img-hover">
                     <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project pt-70">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\gecko-white.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\gecko-white.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\gecko-white.png" alt="" class="img-cover">
                     </picture>
                 </div>
             </div>
             </a>
-            <a href="" class="align-self-end">
+            <a href="" class="align-self-end" data-aos="fade-down" data-aos-once="true">
                 <div class="item-view-prj prj-challenge img-hover">
                     <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\chalenge.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\chalenge.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\chalenge.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -175,7 +175,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="logo-project" style="z-index:2; position:relative;">
                    
                     <picture>
-                        <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\WV-logo.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\WV-logo.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -209,7 +209,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="logo-project" style="z-index:2; position:relative;">
                    
                     <picture>
-                        <source srcset="\img\new-img\small\logo\Telecomcar.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\Telecomcar.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\Telecomcar.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -228,7 +228,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                      <picture>
-                        <source srcset="\img\new-img\small\logo\Dood-logo.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                        <source srcset="\img\new-img\small\logo\Dood-logo.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\Dood-logo.png" alt="" class="img-cover">
                     </picture>
                 </div>
@@ -272,7 +272,7 @@ $this->title = 'Madetec Solution | Project';
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
                         <picture>
-                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                             <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                         </picture>
                     </div>

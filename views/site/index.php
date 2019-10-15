@@ -22,7 +22,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="logo-pic">
                             
                             <picture>
-                                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)">
+                                <source srcset="\img\new-img\small\logo\madetec.png" media="(max-width: 600px)">
                                 <img src="\img\new-img\large\logo\madetec.png" alt="">
                             </picture>
                         </div>  
@@ -73,7 +73,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="madetec-development item-blck-projects mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
                     <div class="main-wrap-project">
                         <picture>
-                            <source srcset="\img\new-img\small\picter\developer.jpg" type="image/webp" media="(max-width: 600px)">
+                            <source srcset="\img\new-img\small\picter\developer.jpg"  media="(max-width: 600px)">
                             <img src="\img\new-img\large\picter\developer.jpg" alt="">
                         </picture>
                         <div class="wrap-pic-filt"></div>
@@ -92,7 +92,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="main-wrap-project">
                     
                      <picture>
-                        <source srcset="\img\new-img\small\picter\blur-noutbook.jpg" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\picter\blur-noutbook.jpg"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\picter\blur-noutbook.jpg" alt="">
                     </picture>
                     <div class="wrap-pic-filt"></div>
@@ -111,7 +111,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="main-wrap-project">
             
                      <picture>
-                        <source srcset="\img\new-img\small\picter\OT1C850-min.jpg" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\picter\OT1C850-min.jpg"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\picter\OT1C850-min.jpg" alt="">
                     </picture>
                     <div class="wrap-pic-filt"></div>
@@ -137,19 +137,19 @@ $this->title = 'Madetec Solution | Digital Agency';
          <div class="right-text home-items col-md-8">
              <ul class="row">
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
-                     <div class="icon-cont"><i class="far fa-smile-wink"></i></div>
+                     <div class="icon-cont text-center"><i class="far fa-smile-wink"></i></div>
                      <p class="text-icon grey">С нами <span>легко</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
-                     <div class="icon-cont"><i class="far fa-clock"></i></div>
+                     <div class="icon-cont text-center"><i class="far fa-clock"></i></div>
                      <p class="text-icon grey">С нами <span>быстро</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
-                     <div class="icon-cont"><i class="far fa-thumbs-up"></i></div>
+                     <div class="icon-cont text-center"><i class="far fa-thumbs-up"></i></div>
                      <p class="text-icon grey">Мы гарантируем <span>качество</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
-                     <div class="icon-cont"><i class="far fa-calendar-check"></i></div>
+                     <div class="icon-cont text-center"><i class="far fa-calendar-check"></i></div>
                      <p class="text-icon grey">Мы выполняем в <span>сроки</span></p>
                  </li>
              </ul>
@@ -162,7 +162,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <section id="about-us" class="about-us">
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
     <picture>
-        <source srcset="\img\new-img\small\picter\code.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <source srcset="\img\new-img\small\picter\code.jpg"  media="(max-width: 600px)" class="bg-about-us img-cover">
         <img src="\img\new-img\large\picter\code.jpg" alt="" class="bg-about-us img-cover">
     </picture>
     <div class="container main-content-about">
@@ -181,7 +181,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\WV-logo.png"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\WV-logo.png" alt="" >
                     </picture>
                 </div>
@@ -198,7 +198,7 @@ $this->title = 'Madetec Solution | Digital Agency';
         <div class="contain-project-mid  col-md-4 row p-0">
             
                 <div class="blck-text-top  pt-20 align-self-start" style="z-index:2; position:relative;" data-aos="fade-up">
-                <h3 class="text-center">Униккальные проекты</h3>
+                <h3 class="text-center">Уникальные проекты</h3>
                 <p class="pt-10 text-center">Мы создаем мобильные приложения, программные обеспечения любого вида сложности
                 для разных сфер бизнеса. Каждый из наших проектов уникален как со стороны функциональности, так и
                  дизайном.</p>
@@ -226,7 +226,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                    <picture>
-                        <source srcset="\img\new-img\small\logo\Dood-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\Dood-logo.png"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\Dood-logo.png" alt="" >
                     </picture>
                 </div>
@@ -246,7 +246,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 <section id="reviews" class="reviews" data-scroll-index="1">
     <div class="wrap-pic-filt" style="z-index:1;"></div>
     <picture>
-        <source srcset="\img\new-img\small\picter\company-coperation.jpg" type="image/webp" media="(max-width: 600px)" class="bg-img-review img-cover">
+        <source srcset="\img\new-img\small\picter\company-coperation.jpg"  media="(max-width: 600px)" class="bg-img-review img-cover">
         <img src="\img\new-img\large\picter\company-coperation.jpg" alt="" class="bg-img-review img-cover">
     </picture>
     <div class="container pt-70">
@@ -254,7 +254,7 @@ $this->title = 'Madetec Solution | Digital Agency';
         <span class="logo-companys" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
            
             <picture>
-                <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                 <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
             </picture>
         </span>
@@ -267,7 +267,11 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                   
+                                    <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -287,7 +291,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -307,7 +314,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -327,7 +337,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -347,7 +360,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -367,7 +383,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -387,7 +406,10 @@ $this->title = 'Madetec Solution | Digital Agency';
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
                                 <div class="avatar-user">
-                                    <img src="/images/1.png" alt="port-1" class="img-cover">
+                                     <picture>
+                                        <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
+                                        <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
+                                    </picture>
                                 </div>
                                 <div class="name-user">
                                     <h3 class="mb-0">Имя Фамилия</h3>
@@ -438,7 +460,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
                         <picture>
-                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                             <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                         </picture>
                     </div>

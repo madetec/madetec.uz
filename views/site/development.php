@@ -20,7 +20,7 @@ $this->title = 'Madetec Solution | Development';
                     	
                     	<div class="logo-pic">
                             <picture>
-                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                             <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                         </picture>
                         </div>	
@@ -55,23 +55,23 @@ $this->title = 'Madetec Solution | Development';
          <div class="right-text col-md-8">
              <ul class="row justify-content-around">
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont" style="padding: 10px 22px;"><i class="fas fa-lightbulb"></i></div>
+                     <div class="icon-cont text-center"><i class="fas fa-lightbulb"></i></div>
                      <p class="text-icon grey">Поделитесь с нами идеей проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont"><i class="fas fa-puzzle-piece"></i></div>
+                     <div class="icon-cont text-center"><i class="fas fa-puzzle-piece"></i></div>
                      <p class="text-icon grey">Создадим Т.З. проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont"><i class="fas fa-paint-brush"></i></div>
+                     <div class="icon-cont text-center"><i class="fas fa-paint-brush"></i></div>
                      <p class="text-icon grey">Создадим уникальный дизайн проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont"><i class="fas fa-desktop"></i></div>
+                     <div class="icon-cont text-center"><i class="fas fa-desktop"></i></div>
                      <p class="text-icon grey">Разработаем и протестируем продукт</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont"><i class="fab fa-react"></i></div>
+                     <div class="icon-cont text-center"><i class="fab fa-react"></i></div>
                      <p class="text-icon grey">Вы получите готовый уникальный продукт</p>
                  </li>
              </ul>
@@ -87,7 +87,7 @@ $this->title = 'Madetec Solution | Development';
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
    
     <picture>
-        <source srcset="\img\new-img\small\picter\blur-man.jpg" type="image/webp" media="(max-width: 600px)" class="bg-about-us img-cover">
+        <source srcset="\img\new-img\small\picter\blur-man.jpg"  media="(max-width: 600px)" class="bg-about-us img-cover">
         <img src="\img\new-img\large\picter\blur-man.jpg" alt="" class="bg-about-us img-cover">
     </picture>
     <p class="text-center mb-0 top-txt-blck" data-aos="fade-up" data-aos-once="true" data-aos-transition="800">Направления</p>
@@ -95,7 +95,7 @@ $this->title = 'Madetec Solution | Development';
         <div class="logo-head logo-head-develop row justify-content-center pt-10" data-aos="fade-up" data-aos-once="true" data-aos-transition="800">   	
             <div class="logo-pic">
                 <picture>
-                    <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                     <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                 </picture>
             </div>	
@@ -104,19 +104,19 @@ $this->title = 'Madetec Solution | Development';
         <div class="list-direction-develop pt-50">
         	<ul class="row">
         		<li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont"><i class="fas fa-desktop"></i></div>
+                     <div class="icon-cont text-center"><i class="fas fa-desktop"></i></div>
                      <p class="text-icon">Уникальные Веб сайты</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont" style="padding: 15px 25px;"><i class="fas fa-tablet-alt"></i></div>
+                     <div class="icon-cont text-center" ><i class="fas fa-tablet-alt"></i></div>
                      <p class="text-icon">Мобильные приложения</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont" style="padding: 15px;"><i class="fas fa-laptop-code"></i></div>
+                     <div class="icon-cont text-center" ><i class="fas fa-laptop-code"></i></div>
                      <p class="text-icon">Программные обеспечения</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
-                     <div class="icon-cont" style="padding: 15px;"><i class="fas fa-cogs"></i></div>
+                     <div class="icon-cont text-center" ><i class="fas fa-cogs"></i></div>
                      <p class="text-icon">Системы бизнес оптимизации</p>
                  </li>
                 
@@ -138,7 +138,7 @@ $this->title = 'Madetec Solution | Development';
                 <div class="logo-project" style="z-index:2; position:relative;">
                     
                     <picture>
-                        <source srcset="\img\new-img\small\logo\WV-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\WV-logo.png"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\WV-logo.png" alt="" >
                     </picture>
                 </div>
@@ -172,7 +172,7 @@ $this->title = 'Madetec Solution | Development';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\Telecomcar.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\Telecomcar.png"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\telecomcar.png" alt="" >
                     </picture>
                 </div>
@@ -191,7 +191,7 @@ $this->title = 'Madetec Solution | Development';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\Dood-logo.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\Dood-logo.png"  media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\Dood-logo.png" alt="" >
                     </picture>
                 </div>
@@ -235,7 +235,7 @@ $this->title = 'Madetec Solution | Development';
                 <div class="madetec-links">
                     <div class="icon-logo-madetec mb-20">
                        <picture>
-                            <source srcset="\img\new-img\small\logo\madetec.png" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                            <source srcset="\img\new-img\small\logo\madetec.png"  media="(max-width: 600px)" class="img-cover">
                             <img src="\img\new-img\large\logo\madetec.png" alt="" class="img-cover">
                         </picture>
                     </div>
