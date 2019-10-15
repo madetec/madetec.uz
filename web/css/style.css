@@ -677,6 +677,7 @@ h4.min-title::after{
     background: linear-gradient(135deg, rgba(189,18,6,1) 0%, rgba(1,68,112,1) 100%);
     padding: 1px;
     margin: 0 auto;
+    width: 90%;
 
 }
 .own-bag span{
