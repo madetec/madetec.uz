@@ -172,7 +172,7 @@ $this->title = 'Madetec Solution | Development';
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                     <picture>
-                        <source srcset="\img\new-img\small\logo\telecomcar.png" type="image/webp" media="(max-width: 600px)">
+                        <source srcset="\img\new-img\small\logo\Telecomcar.png" type="image/webp" media="(max-width: 600px)">
                         <img src="\img\new-img\large\logo\telecomcar.png" alt="" >
                     </picture>
                 </div>

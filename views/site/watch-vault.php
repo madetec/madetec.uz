@@ -71,7 +71,7 @@ $this->title = 'Madetec Solution | Digital';
             </div>
             <div class="left-blck img-wv col-md-6" style="height:400px;" data-aos="fade-down" data-aos-once="true" data-aos-duration = "1000">
                 <picture>
-                    <source srcset="\img\new-img\small\picter\Wv3.jpg" type="image/webp" media="(max-width: 600px)" class="img-cover">
+                    <source srcset="\img\new-img\small\picter\WV3.jpg" type="image/webp" media="(max-width: 600px)" class="img-cover">
                     <img src="\img\new-img\large\picter\WV3.jpg" alt="" class="img-cover">
                 </picture>
             </div>
