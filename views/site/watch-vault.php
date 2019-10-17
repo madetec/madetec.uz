@@ -26,7 +26,7 @@ $this->title = 'Madetec Solution | Digital';
                     </div>
                    
              
-                    <a class="btn-pusk btn-link row">скачать</a>
+                    <a class="btn-link row col-md-3 text-center mt-20" style="margin-left:2px;">скачать</a>
                 </div>
 
             </div>
@@ -101,7 +101,7 @@ $this->title = 'Madetec Solution | Digital';
         
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view" id="show-more-project"><span class="link-wrap"><p>Скачать</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view text-center" id="show-more-project"><span class="link-wrap"><p>Скачать</p></span></a>
 </section>
 
 

@@ -26,7 +26,7 @@ $this->title = 'Madetec Solution | Digital';
                     </div>
                    
              
-                    <a class="btn-pusk btn-link row">Связаться</a>
+                    <a class="btn-link row text-center col-md-3 mt-20">Связаться</a>
                 </div>
 
             </div>
@@ -45,7 +45,7 @@ $this->title = 'Madetec Solution | Digital';
     <div class="top-descript-block-digital">
     	<p class="text-center grey" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Маркетинговое направление компании Madetec, специализирующееся в маркетинге и продвижении на цифровой платформе. Самые лучшие специалисты этих отраслей собрались, чтобы обеспечить грамотное продвижение и качественные услуги своим клиентам.
         </p>
-    	<p class="text-center grey" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Вашими проектами непосредственно займутся ведущие маркетологи и дизайнеры <span>Madetec</span></p>
+    	<p class="text-center grey" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Вашими проектами непосредственно займутся ведущие маркетологи и дизайнеры <span class="font-weight-bold">Madetec</span></p>
     </div>	
      <div class="container-text-bot row mt-30">
         <div class="left-text col-md-4" data-aos="fade-up" data-aos-transition="1000" data-aos-once="true">
@@ -58,23 +58,23 @@ $this->title = 'Madetec Solution | Digital';
                      <div class="icon-cont text-center icons-70">
                         <i class="fas fa-city"></i>
                     </div>
-                     <p class="text-icon grey">Расскажите о своем бизнесе</p>
+                     <p class="text-icon grey text-center pt-10">Расскажите о своем бизнесе</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center icons-70"><i class="fas fa-clipboard"></i></div>
-                     <p class="text-icon grey">Мы создадим медиаплан</p>
+                     <p class="text-icon grey text-center pt-10">Мы создадим медиаплан</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center icons-70"><i class="fas fa-paint-brush"></i></div>
-                     <p class="text-icon grey">Подберем уникальные дизайн</p>
+                     <p class="text-icon grey text-center pt-10">Подберем уникальные дизайн</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center icons-70"><i class="fas fa-ad"></i></div>
-                     <p class="text-icon grey">Раскрутим вашу страницу</p>
+                     <p class="text-icon grey text-center pt-10">Раскрутим вашу страницу</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-down" data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center icons-70"><i class="fas fa-bullhorn"></i></div>
-                     <p class="text-icon grey">Расскажем о ней всему миру</p>
+                     <p class="text-icon grey text-center pt-10">Расскажем о ней всему миру</p>
                  </li>
              </ul>
          </div>
@@ -107,19 +107,19 @@ $this->title = 'Madetec Solution | Digital';
         	<ul class="row">
         		<li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center"><i class="fab fa-facebook-square"></i></div>
-                     <p class="text-icon">Социальные сети</p>
+                     <p class="text-icon font-weight-bold text-center pt-10">Социальные сети</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center"><i class="fab fa-telegram-plane"></i></div>
-                     <p class="text-icon">Все виды мессенджеров</p>
+                     <p class="text-icon font-weight-bold text-center pt-10">Все виды мессенджеров</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center"><i class="fas fa-broadcast-tower"></i></div>
-                     <p class="text-icon">Активности на цифровой платформе</p>
+                     <p class="text-icon font-weight-bold text-center pt-10">Активности на цифровой платформе</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-down"  data-aos-once="true" data-aos-transition="1000">
                      <div class="icon-cont text-center"><i class="fas fa-ad"></i></div>
-                     <p class="text-icon">Реклама и продвижение</p>
+                     <p class="text-icon font-weight-bold text-center pt-10">Реклама и продвижение</p>
                  </li>
                 
         	</ul>
@@ -189,9 +189,9 @@ $this->title = 'Madetec Solution | Digital';
 </section>
 
 
-<section id="your-ideas" class="your-ideas">
+<section id="your-ideas" class="your-ideas position-relative">
     <div class="container">
-        <div class="form-contain">
+        <div class="form-contain position-absolute bg-white m-aut">
             <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <span>Место для Ваших идей</span>
             </h3>

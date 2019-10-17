@@ -26,7 +26,7 @@ $this->title = 'Madetec Solution | Development';
                         </div>	
                     	<span class="text-logo-head pt-5">development</span>
                     </div>
-                    <a class="btn-pusk btn-link row">Связаться</a>
+                    <a class="btn-link row col-md-3 text-center mt-20">Связаться</a>
                 </div>
 
             </div>
@@ -43,7 +43,7 @@ $this->title = 'Madetec Solution | Development';
 <section id="develop-product" class="develop-product" data-scroll-index="1">
     <div class="container">
     <div class="top-descript-block-develop">
-    	<p class="text-center grey" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Одним из подразделений компании <span>Madetec Solution</span> является <span>Madetec development</span>, осуществляющий консалтинг и разработку программного обеспечения, направленного на решение проблем, с которыми ежедневно сталкивается современный бизнес в ходе своей технологической эволюции. </p>
+    	<p class="text-center grey" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Одним из подразделений компании <span class="font-weight-bold">Madetec Solution</span> является <span class="font-weight-bold">Madetec development</span>, осуществляющий консалтинг и разработку программного обеспечения, направленного на решение проблем, с которыми ежедневно сталкивается современный бизнес в ходе своей технологической эволюции. </p>
     	<p class="text-center grey" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">С начала своей деятельности данное подразделение уже приняло заказы по разработке приложений для разных сфер бизнеса.</p>
     </div>	
      <div class="container-text-bot row mt-30">
@@ -56,23 +56,23 @@ $this->title = 'Madetec Solution | Development';
              <ul class="row justify-content-around">
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fas fa-lightbulb"></i></div>
-                     <p class="text-icon grey">Поделитесь с нами идеей проекта</p>
+                     <p class="text-icon grey text-center pt-10">Поделитесь с нами идеей проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fas fa-puzzle-piece"></i></div>
-                     <p class="text-icon grey">Создадим Т.З. проекта</p>
+                     <p class="text-icon grey text-center pt-10">Создадим Т.З. проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fas fa-paint-brush"></i></div>
-                     <p class="text-icon grey">Создадим уникальный дизайн проекта</p>
+                     <p class="text-icon grey text-center pt-10">Создадим уникальный дизайн проекта</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fas fa-desktop"></i></div>
-                     <p class="text-icon grey">Разработаем и протестируем продукт</p>
+                     <p class="text-icon grey text-center pt-10">Разработаем и протестируем продукт</p>
                  </li>
                  <li class="item-text-icon col-md-2" data-aos="fade-up"  data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fab fa-react"></i></div>
-                     <p class="text-icon grey">Вы получите готовый уникальный продукт</p>
+                     <p class="text-icon grey text-center pt-10">Вы получите готовый уникальный продукт</p>
                  </li>
              </ul>
          </div>
@@ -105,19 +105,19 @@ $this->title = 'Madetec Solution | Development';
         	<ul class="row">
         		<li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center"><i class="fas fa-desktop"></i></div>
-                     <p class="text-icon">Уникальные Веб сайты</p>
+                     <p class="text-icon text-center font-weight-bold pt-10">Уникальные Веб сайты</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center" ><i class="fas fa-tablet-alt"></i></div>
-                     <p class="text-icon">Мобильные приложения</p>
+                     <p class="text-icon text-center font-weight-bold pt-10">Мобильные приложения</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center" ><i class="fas fa-laptop-code"></i></div>
-                     <p class="text-icon">Программные обеспечения</p>
+                     <p class="text-icon text-center font-weight-bold pt-10">Программные обеспечения</p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-left" data-aos-once="true" data-aos-transition="800">
                      <div class="icon-cont text-center" ><i class="fas fa-cogs"></i></div>
-                     <p class="text-icon">Системы бизнес оптимизации</p>
+                     <p class="text-icon text-center font-weight-bold pt-10">Системы бизнес оптимизации</p>
                  </li>
                 
         	</ul>
@@ -130,7 +130,7 @@ $this->title = 'Madetec Solution | Development';
 <section id="projects" class="companys-projects" data-scroll-index="3">
     <div class="container row justify-content-between">
         <a href="<?= Url::to(['/site/watch-vault']) ?>" class="col-md-4">
-        <div class="contain-project-side watch-v-project" data-aos="fade-down" data-aos-once="true">
+        <div class="contain-project-side watch-v-project overflow-hide" data-aos="fade-down" data-aos-once="true">
            
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
@@ -153,7 +153,7 @@ $this->title = 'Madetec Solution | Development';
         </a> 
         <div class="contain-project-mid  col-md-4 row p-0">
         	<a href="" class="align-self-start">
-                <div class="brs-project img-hover" data-aos="fade-up" data-aos-once="true" data-aos-transition="800">
+                <div class="brs-project img-hover overflow-hide" data-aos="fade-up" data-aos-once="true" data-aos-transition="800">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -167,7 +167,7 @@ $this->title = 'Madetec Solution | Development';
             </div>
             </a>
             <a href="" class="align-self-end">
-                <div class="telecom-cart-project img-hover  pt-20" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-transition="800">
+                <div class="telecom-cart-project img-hover  pt-20 overflow-hide" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-transition="800">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -185,7 +185,7 @@ $this->title = 'Madetec Solution | Development';
             
         </div>
         <a href="" class="col-md-4">
-            <div class="contain-project-side dood-project " data-aos="fade-down" data-aos-once="true" data-aos-transition="800">
+            <div class="contain-project-side dood-project overflow-hide" data-aos="fade-down" data-aos-once="true" data-aos-transition="800">
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
@@ -205,13 +205,13 @@ $this->title = 'Madetec Solution | Development';
         </a>
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view text-center row col-md-3" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
 </section>
 
 
-<section id="your-ideas" class="your-ideas">
+<section id="your-ideas" class="your-ideas position-relative">
     <div class="container">
-        <div class="form-contain">
+        <div class="form-contain position-absolute bg-white m-aut">
             <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <span>Место для Ваших идей</span>
             </h3>

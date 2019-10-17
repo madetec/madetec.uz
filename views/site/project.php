@@ -20,7 +20,7 @@ $this->title = 'Madetec Solution | Project';
                     </div>
                    
              
-                    <a class="btn-pusk btn-link row">Портфолио</a>
+                    <a class="btn-link row text-center col-md-4 mt-20">Портфолио</a>
                 </div>
 
             </div>
@@ -39,7 +39,7 @@ $this->title = 'Madetec Solution | Project';
     <h2 class="text-dark text-center font-weight-bold pb-30">Приложения и Программы</h2>
     <div class="container row justify-content-between">
         <a href="<?= Url::to(['/site/watch-vault']) ?>" class="col-md-4">
-            <div class="contain-project-side watch-v-project" data-aos="fade-down" data-aos-once="true">
+            <div class="contain-project-side watch-v-project overflow-hide" data-aos="fade-down" data-aos-once="true">
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
@@ -59,7 +59,7 @@ $this->title = 'Madetec Solution | Project';
         </a>
         <div class="contain-project-mid  col-md-4 row p-0">
             <a href="" class="align-self-start">
-                <div class="brs-project img-hover" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
+                <div class="brs-project img-hover overflow-hide" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -73,7 +73,7 @@ $this->title = 'Madetec Solution | Project';
              </div>
             </a>
             <a href="" class="align-self-end pt-20">
-                <div class="telecom-cart-project img-hover" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
+                <div class="telecom-cart-project img-hover overflow-hide" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -91,7 +91,7 @@ $this->title = 'Madetec Solution | Project';
             
         </div>
         <a href="" class="col-md-4">
-            <div class="contain-project-side dood-project" data-aos="fade-down" data-aos-once="true">
+            <div class="contain-project-side dood-project overflow-hide" data-aos="fade-down" data-aos-once="true">
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
@@ -111,7 +111,7 @@ $this->title = 'Madetec Solution | Project';
         </a>
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view row col-md-3 text-center" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
 </section>
 
 
@@ -120,10 +120,10 @@ $this->title = 'Madetec Solution | Project';
     <div class="container row justify-content-center pt-30">
         <a href="" class="col-md-6" data-aos="fade-down" data-aos-once="true">
             <div class="left-view-design-prj">
-            <div class="item-view-prj prj-extravel img-hover">
+            <div class="item-view-prj prj-extravel img-hover overflow-hide position-relative">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
-                <div class="logo-project" style="padding-top: 50%;">
+                <div class="logo-project position-relative m-aut" style="padding-top: 50%;">
                     <img src="\img\new-img\more\explore.png" alt="" class="img-cover">
                 </div>
             
@@ -133,10 +133,10 @@ $this->title = 'Madetec Solution | Project';
         
             <div class="right-view-design-prj col-md-6 row">
             <a href="" class="align-self-start" data-aos="fade-up" data-aos-once="true">
-                <div class="item-view-prj prj-gecko img-hover">
+                <div class="item-view-prj prj-gecko img-hover overflow-hide position-relative">
                     <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
-                <div class="logo-project pt-70">
+                <div class="logo-project pt-70 position-relative m-aut">
                     <picture>
                         <source srcset="\img\new-img\small\logo\gecko-white.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\gecko-white.png" alt="" class="img-cover">
@@ -145,10 +145,10 @@ $this->title = 'Madetec Solution | Project';
             </div>
             </a>
             <a href="" class="align-self-end" data-aos="fade-down" data-aos-once="true">
-                <div class="item-view-prj prj-challenge img-hover">
+                <div class="item-view-prj prj-challenge img-hover overflow-hide position-relative">
                     <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
-                <div class="logo-project">
+                <div class="logo-project position-relative m-aut">
                     <picture>
                         <source srcset="\img\new-img\small\logo\chalenge.png"  media="(max-width: 600px)" class="img-cover">
                         <img src="\img\new-img\large\logo\chalenge.png" alt="" class="img-cover">
@@ -160,7 +160,7 @@ $this->title = 'Madetec Solution | Project';
         
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view text-center row col-md-3" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
 </section>
 
 <!-- Portfolio-Digital Start -->
@@ -168,7 +168,7 @@ $this->title = 'Madetec Solution | Project';
     <h2 class="text-dark text-center font-weight-bold pb-30">Digital Marketing</h2>
     <div class="container row justify-content-between">
         <a href="" class="col-md-4">
-            <div class="contain-project-side watch-v-project" data-aos="fade-down" data-aos-once="true">
+            <div class="contain-project-side watch-v-project overflow-hide" data-aos="fade-down" data-aos-once="true">
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
@@ -189,7 +189,7 @@ $this->title = 'Madetec Solution | Project';
     </a>
         <div class="contain-project-mid  col-md-4 row p-0">
             <a href="" class="align-self-start">
-                <div class="brs-project img-hover" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
+                <div class="brs-project img-hover overflow-hide" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;"> 
@@ -203,14 +203,14 @@ $this->title = 'Madetec Solution | Project';
             </div>
         </a>
             <a href="" class="align-self-end">
-                <div class="telecom-cart-project pt-20 img-hover" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
+                <div class="telecom-cart-project pt-20 img-hover overflow-hide" style="z-index:2; position:relative;" data-aos="fade-down" data-aos-once="true" data-aos-delay="400">
                     <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
                    
                     <picture>
                         <source srcset="\img\new-img\small\logo\Telecomcar.png"  media="(max-width: 600px)" class="img-cover">
-                        <img src="\img\new-img\large\logo\Telecomcar.png" alt="" class="img-cover">
+                        <img src="\img\new-img\large\logo\telecomcar.png" alt="" class="img-cover">
                     </picture>
                 </div>
                 <div class="descript-project" style="z-index:2; position:relative;">
@@ -222,7 +222,7 @@ $this->title = 'Madetec Solution | Project';
             
         </div>
         <a href="" class="col-md-4">
-            <div class="contain-project-side dood-project" data-aos="fade-down" data-aos-once="true">
+            <div class="contain-project-side dood-project overflow-hide" data-aos="fade-down" data-aos-once="true">
             <div class="main-content-portfolio img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
@@ -242,13 +242,13 @@ $this->title = 'Madetec Solution | Project';
     </a>
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view text-center row col-md-3" id="show-more-project"><span class="link-wrap"><p>Загрузить еще ...</p></span></a>
 </section>
 
 
-<section id="your-ideas" class="your-ideas">
+<section id="your-ideas" class="your-ideas position-relative">
     <div class="container">
-        <div class="form-contain">
+        <div class="form-contain position-absolute bg-white m-aut">
             <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <span>Место для Ваших идей</span>
             </h3>

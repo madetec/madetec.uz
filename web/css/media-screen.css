@@ -1,32 +1,23 @@
 @media screen and (max-width: 1125px) {
     
-    .text-logo-head {
-    font-size: 2rem;
-    }
+    .text-logo-head {font-size: 2rem;}
 
-    .pic-design, .pic-dispaly, .pic-digital{
-    	width:100%;
-    }
+    .pic-design, .pic-dispaly, .pic-digital{width:100%;}
 
     .pic-project{
     width: 100%;
     float: right;
     }
 
-    .pic-wv{
-        width:80%;
-    }
+    .pic-wv{width:80%;}
 
-    .pic-development{
-        width:90%;
-    }
-
-     
+    .pic-development{width:90%;}
 
 }
 
 
 @media screen and (max-width: 991px) {
+
 .navbar .navbar-collapse {
     max-height: 500px;
     overflow: auto;
@@ -44,22 +35,16 @@
     border: 1px solid #bd1206;
     
 	}
-	.develop-product .text-icon{
-		font-size: .7rem;
-	}
+	.develop-product .text-icon{font-size: .7rem;}
 
-	.bg-design .text-logo-head{
-		font-size: 1.8rem;
-	}
+	.bg-design .text-logo-head{font-size: 1.8rem;}
 
 }
 
 
 @media screen and (max-width: 970px) {
 
-	.text-logo-head  {
-    font-size: 1.5rem;
-    } 
+	.text-logo-head  {font-size: 1.5rem;} 
 
     .home-items .icon-cont {
 
@@ -70,52 +55,30 @@
 
     }
 
-    .item-blck-projects .text-main {
-    font-size: .8rem;
-    }
+    .item-blck-projects .text-main, .contact-link, .address p, .contain-project-mid .blck-text-top p
+     {font-size: .8rem!important;}
 
-    .logo-companys {
-    width: 150px;
-    }
+    .logo-companys {width: 150px;}
 
-	h3{
-    font-size: 1.6rem!important;
-	}
+	h3{font-size: 1.6rem!important;}
 
-	.left-text{
-		border:none;
-	}
+	.left-text{border:none;}
 
-	.review-content p{
-    font-size: .9rem;
-    }
+	.review-content p{font-size: .9rem;}
 
-   .contact-link, .address p  {
-   font-size:.8rem;
-    }
 
-	.address h4, .madetec-links a{
-    font-size: 1.1rem;
-    }
+	.address h4, .madetec-links a{font-size: 1.1rem;}
 
     .main-content-portfolio {
     height: 500px;
     padding-top: 150px!important;
     }
 
-
-	.contain-project-mid .blck-text-top p{
-    font-size: .8rem!important;
-    }
 }
 
 @media screen and (max-width: 880px) {
-	.develoment-direction .text-logo-head{
-    	font-size: 1.6rem;
-    }
-    .develoment-direction .text-icon {
-    font-size: 1rem;
-	}
+	.develoment-direction .text-logo-head{font-size: 1.6rem;}
+    .develoment-direction .text-icon {font-size: 1rem;}
 
 	.digital-product .icon-cont{
 		width: 65px;
@@ -125,25 +88,19 @@
     border: 1px solid #040e75;
 	}
 
-	.digital-product .text-icon{
-		font-size: .7rem;
-	}
+	.digital-product .text-icon{font-size: .7rem;}
 
 	.design-product .icon-cont{
 		width: 60px;
     	height: 60px;
     	font-size: 1.7rem;
 	}
-
-	.design-product .text-icon{
-		font-size: .7rem;
-	}
-
 	
 }
 
 
 @media (max-width: 800px) {
+
     h1 {
         font-size: 30px;
         letter-spacing: 1px;
@@ -151,48 +108,26 @@
         text-transform: capitalize;
         margin-bottom: 20px;
     }
-    .mt-100{
-        margin-top: 40px !important;
-    }
+    .mt-100{margin-top: 40px !important;}
     
     .img-head{
         width: 100%;
         padding: 20px 0 0 0;
     }
-    .mmt-20 {
-        margin-top: 30px;
-    }
-    .about-detail {
-        padding-left: 20px;
-    }
-    .video-play {
-        text-align: center;
-        margin: 40px 0;
-    }
-    .video-play a {
-        left: 0;;
-        position: relative;
-        transform: scale(.8);
-    }
+    .about-detail {padding-left: 20px;}
+    
     .main-nav h4{
         text-transform: uppercase;
         font-size: 11px;
     }
-    .main-button{
-        padding: 10px 20px;
-    }
+    .main-button{padding: 10px 20px;}
     ul.head-navigation li{
         width: 300px;
         display: inline-block;
         padding: 5px 20px !important;
         margin: 10px 10px;
     }
-    .left-nav {
-        display: none;
-    }
-    .social-media {
-        display: none;
-    }
+    .left-nav, .social-media {display: none;}
 }
 
 
@@ -208,38 +143,34 @@
    		display: none;
     }
 
+    .btn-link{width:35%;}
+
     .container-sqr{
         -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
     	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
     }
 
-    .text-logo-head {
-    	font-size: 2rem;
-    } 
+    .text-logo-head {font-size: 2rem;} 
 
-    .item-blck-projects .text-main {
-    	font-size: .9rem;
-    }
+    .item-blck-projects .text-main, 
+    .develop-product .text-icon, 
+    .digital-product .text-icon ,
+    .design-product .text-icon
+    {font-size: .9rem;}
 
-    .dood-project{
-    	margin-top: 15px;
-    }
+    .dood-project{margin-top: 15px;}
 
-    .icon-logo-madetec{
-    	margin:0 auto;
-    }
+    .icon-logo-madetec{margin:0 auto;}
 
-    .madetec-links p{
-    	text-align: center;
-    }
+    .madetec-links p{text-align: center;}
 
-    .contact-info{
-    	margin-top:20px;
-    }
-
-    .contain-info-block .border{
-    	margin-top: 20px;
-    }
+    .contact-info, 
+    .contain-info-block .border, 
+    .companys-projects .brs-project, 
+    .companys-projects .telecom-cart-project, 
+    .prj-challenge,
+    .left-view-design-prj, .right-view-design-prj
+    {margin-top:20px;}
 
     .contain-project-mid{
     	margin-left:0;
@@ -254,30 +185,17 @@
     border: 1px solid #bd1206;
     
 	}
-	.develop-product .text-icon{
-		font-size: .9rem;
-	}
-
-	.companys-projects .brs-project, .companys-projects .telecom-cart-project, .prj-challenge{
-    	margin-top:20px;
-    }
-
-    .digital-direction .text-logo-head{
-    	font-size: 1.5rem;
-    }
+	
+    .digital-direction .text-logo-head{font-size: 1.5rem;}
 
     .blck-client{
     	width: 60%;
     	margin: 15px auto;
     }
 
-    .your-ideas{
-    	padding: 250px 0px;
-    }
+    .your-ideas{padding: 250px 0px;}
 
-    .companys-clients{
-    	padding: 30px 5px 30px;
-    }
+    .companys-clients{padding: 30px 5px 30px;}
 
     .digital-product .icon-cont{
 		width: 70px;
@@ -287,9 +205,6 @@
     border: 1px solid #040e75;
 	}
 
-	.digital-product .text-icon{
-		font-size: .9rem;
-	}
 
 	.list-direction-develop .icon-cont{
 		width: 70px;
@@ -298,21 +213,11 @@
     	padding: 15px 0px!important;
 	}
 
-    .design-direction .logo-pic {
-    	width: 150px;
-	}
+    .design-direction .logo-pic {width: 150px;}
 
-	.design-direction .text-logo-head {
-    	font-size: 1.6rem;
-	}
+	.design-direction .text-logo-head {font-size: 1.6rem;}
 
-	.design-direction .text-icon{
-		font-size:1.2rem;
-	}
-
-	.left-view-design-prj, .right-view-design-prj{
-		margin-top: 20px;
-	}
+	.design-direction .text-icon{font-size:1.2rem;}
 
 	.design-product .icon-cont{
 
@@ -321,21 +226,13 @@
     	font-size: 2rem;
 	}
 
-	.design-product .text-icon{
-		font-size: .9rem;
-	}
-
 	.img-wv{
 		margin-top:20px;
 		margin-bottom:20px;
 	}
 
-	.text-wv h2{
-		text-align: left;
-	}
-	.wv-descript-text p{
-		text-align: left!important;
-	}
+	.text-wv h2, .wv-descript-text p{text-align: left!important;}
+	
 
     .navbar .navbar-collapse {
    
@@ -345,103 +242,77 @@
     left: 0px;
 
     }
-    .prj-gecko .logo-project {
-        padding-top:30px!important;
-    }
-    .prj-challenge .logo-project{
-        width:40%;
-    }
+    .prj-gecko .logo-project {padding-top:30px!important;}
+
+    .prj-challenge .logo-project{width:40%;}
 
 
 }
 
 
 @media (max-width: 575.98px), (max-height: 500px){
-	.review-content p{
-		line-height:1.4;
-	}
+
+	.review-content p{line-height:1.4;}
 
 	.reviews{
         -webkit-clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
 		clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
 	}
 
+
+
 	.avatar-user{
 		width:50px;
 		height:50px;
 	}
 
-	.name-user h3, .form-contain h3{
-		font-size: 1.3rem!important;
-	}
+	.name-user h3, .form-contain h3{font-size: 1.3rem!important;}
 
-	.form-contain{
-		
-    	padding: 10px 10px;
-	}
+	.form-contain{padding: 10px;}
 
 	.form-group input{
 		width:100%;
 		padding: 2px;
 	}
 
-	.controls .row{
-		margin-top:5px!important;
-	}
+	.controls .row{margin-top:5px!important;}
 
-	.main-button {
-    	padding: 5px 20px;
-	}
+	.main-button {padding: 5px 20px;}
 
 	.icon-logo-madetec{
 		width: 40%;
 		margin: 15px 0px;
 	}
 
-	.madetec-links{
-		padding-left:15px;
-	}
+	.madetec-links{padding-left:15px;}
 
-	.madetec-links p{
+    .line-bot{display: block; }
+
+    .address{padding-top:0!important;
+    }
+    .contact-info h2, 
+    .contain-info-block .border p, 
+    .address h4, 
+    .address p,
+    .madetec-links p{
     	text-align: left;
     }
-    .line-bot{
-    	display: block;
-    }
-    .address{
-    	padding-top:0!important;
-    }
-    .contact-info h2, .contain-info-block .border p, .address h4, .address p{
-    	text-align: left;
-    }
-    .border{
-    	padding: 15px;
-    }
-    .madetec-links a{
-    	font-size: 1rem;
-    }
 
-    .text-logo-head {
-    	font-size: 1.8rem;
-	}
+    .border{padding: 15px;}
 
-	.navbar .logo {
-    	width: 150px;
-	}
+    .madetec-links a{font-size: 1rem;}
 
-	.develoment-direction .logo-pic, .digital-direction .logo-pic {
-        width: 120px!important;
-	}	
+    .text-logo-head {font-size: 1.8rem;}
 
-	.mmt-20 {
-        margin-top: 20px;
+	.navbar .logo {width: 150px;}
+
+	.develoment-direction .logo-pic, .digital-direction .logo-pic {width: 120px!important;}	
+
+	.mmt-20 {margin-top: 20px;}
+
+    .pb-50 {padding-bottom: 30px !important;
     }
-    .pb-50 {
-        padding-bottom: 30px !important;
-    }
-    .mt-up {
-        margin: 0 !important;
-    }
+    
     section{
         padding: 50px 0;
     }
@@ -465,6 +336,7 @@
        font-size: 14px !important;
        line-height: 32px;
    }
+
    /* main-title */
     h4.min-title {
         padding-left: 0 !important;
@@ -497,14 +369,7 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .mt-100{
-        margin-bottom: 40px !important;
-    }
-    .about h3.main-title {
-        text-align: center !important;
-    }
-    
-    
+        
     .main-nav h4{
         text-transform: uppercase;
         font-size: 11px;
@@ -523,16 +388,9 @@
         font-weight: 500;
         font-size: 14px;
     }
-    .left-nav {
-        display: none;
-    }
-    .social-media {
-        display: none;
-    }
+    .left-nav, .social-media, #mouse-scroll {display: none;}
     
-    .mb-down {
-        margin-bottom: 10vh;
-    }
+    
     .footer {
         text-align: center !important;
         position: relative;
@@ -554,170 +412,85 @@
         position: relative;
         transform: scale(.8);
     }
-    #mouse-scroll{
-        display: none;
-    }
+   
     h5 {
         font-size: 15px;
         margin: 10px 0;
         line-height: 24px;
     }
-    .bg-port-head {
-        width: 20%;
-    }
-    .v-2 {
-        text-align: center !important;
-    }
-    .portfolio-focus {
-        padding: 0 30px;
-    }
-    .img-head{
-        width: 100%;
-        padding: 20px 0 0 0;
-    }
-    .about-detail {
-        padding-left: 20px;
-    }
-    .img-port::after {
-        max-width: 469px;
-        height: 180px; 
-    }
+    .bg-port-head {width: 20%;}
 
-
-
-    .watch-v-project .child-content-background{
-
-    background-image: url('../img/new-img/small/picter/WV3.jpg');
-
-    }
-
-    .brending-design .prj-gecko .child-content-background{
-
-     background-image:  url('/img/new-img/small/picter/gecko-bg.jpg');
-    }
-
-
-    .brending-design .prj-challenge .child-content-background{
-
-     background-image:  url('/img/new-img/small/picter/challenge-bg.jpg');
-    }
-
-    .brending-design .prj-extravel .child-content-background{
-    background-image:  url('/img/new-img/small/picter/explore-bg.jpg');
-    }
-
-    .form-contain{
-        width: 90%;
-    }
+    .v-2 {text-align: center !important;}
     
+    .watch-v-project .child-content-background{background-image: url('../img/new-img/small/picter/WV3.jpg');}
+
+    .brending-design .prj-gecko .child-content-background{background-image:  url('/img/new-img/small/picter/gecko-bg.jpg');}
+
+
+    .brending-design .prj-challenge .child-content-background{background-image:  url('/img/new-img/small/picter/challenge-bg.jpg');}
+
+    .brending-design .prj-extravel .child-content-background{background-image:  url('/img/new-img/small/picter/explore-bg.jpg');}
+
+    .form-contain{width: 90%;}   
     
 
 }
 
 
 @media (max-width: 470px){
-	.text-logo-head{
-    	font-size: 1.6rem;
-	}
 
-	
+	.text-logo-head{font-size: 1.6rem;}
 
-	.bg-wv .text-logo-head{
-		font-size:1rem;
-	}
+	.bg-wv .text-logo-head{font-size:1rem;}
+
+    .btn-link{width:45%;}
 }
 
 
 
 @media (max-width: 400px){
-	.logo-pic {
-    	width: 45%;
-	}
 
-	.text-logo-head{
-		font-size: 1.4rem;
-	}
+	.logo-pic {width: 45%;}
 
-	.text-logo-head{
-		padding-top: 5px;
-	}
+	.text-logo-head, .bg-design .text-logo-head{font-size: 1.4rem;}
 
-	.form-contain h3, .title-items-project span{
-		font-size: 1.3rem;
-	}
+	.text-logo-head{padding-top: 5px;}
+
+	.form-contain h3, .title-items-project span, .brending-design h2{font-size: 1.3rem;}
 	
-	.item-blck-projects .text-main{
-		font-size: .8rem!important;
-	}
+	.item-blck-projects .text-main{font-size: .8rem!important;}
 
-	.bg-home .btn-pusk{
-		width: 100px;
-	}
-	.review-content{
-		width:90%;
-	}
+	.bg-home .btn-pusk{width: 100px;}
 
-	
+	.review-content{width:90%;}
 
-	.bg-design .text-logo-head {
-    	font-size: 1.4rem;
-	}
-
-    .brending-design h2{
-        font-size:1.3rem;
-    }
 }
 
 
 @media (max-width: 340px){
 	
-	.form-contain h3, .title-items-project span{
-		font-size: 1.1rem!important;
-	}
+	.form-contain h3, .title-items-project span{font-size: 1.1rem!important;}
 	
-	.name-user h3{
-	font-size: 1.2rem!important;
-	}
+	.name-user h3{font-size: 1.2rem!important;}
 
-	.contact-info h2{
-		font-size: 1.5rem!important;
-	}
-	.form-group input, .form-group textarea{
-		font-size: .9rem;
-	}
-	.main-button {
-    padding: 5px 20px!important;
-	}
+	.contact-info h2{font-size: 1.5rem!important;}
 
-	
+	.form-group input, .form-group textarea, .bg-wv .text-logo-head{font-size: .9rem;}
 
-	.bg-wv .text-logo-head{
-		font-size:.9rem;
-	}
+	.main-button {padding: 5px 20px!important;}
 
-    
-
+    .btn-link{width:55%;}
 
 }
 
 
 @media (max-width: 320px){
 	
-   .item-blck-projects .text-main {
-    font-size: .7rem!important;
-	}
+   .item-blck-projects .text-main {font-size: .7rem!important;}
 
-	
+	.text-logo-head{font-size: 1.2rem;}
 
-	.text-logo-head{
-		font-size: 1.2rem;
-	}
-
-    .form-contain .main-button{
-        font-size:.8rem;
-    }
-
-    
+    .form-contain .main-button{font-size:.8rem;}   
 
 }
 

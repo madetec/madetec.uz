@@ -23,7 +23,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                                        <textarea id="form_message" name="message" placeholder="Сообщение" rows="4" required="required"></textarea>
+                                        <textarea id="form_message" class="m-aut" name="message" placeholder="Сообщение" rows="4" required="required"></textarea>
                                     </div>
                                 </div>
 

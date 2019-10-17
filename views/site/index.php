@@ -28,9 +28,9 @@ $this->title = 'Madetec Solution | Digital Agency';
                         </div>  
                     </div>
                     <div class="desript-project row" style="padding-right:5px;">
-                        <h4>Доверьте <span>процветание</span> своего бизнеса <span>профессионалам</span>.</h4>
+                        <h4>Доверьте <span class="font-weight-bold">процветание</span> своего бизнеса <span class="font-weight-bold">профессионалам</span>.</h4>
                     </div>
-                    <a class="btn-pusk btn-link row">Запуск</a>
+                    <a class="btn-link row text-center col-md-3 mt-20">Запуск</a>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@ $this->title = 'Madetec Solution | Digital Agency';
     </div>
     <div class="col-md-6 contain-rgt-display-img" data-aos="fade-right"  data-aos-once="true">
         <div class="pic-dispaly">
-            <img src="\img\new-img\large\head-container-img\display.png" alt="">
+            <img src="\img\new-img\large\head-container-img\display.png" alt="" class="img-contain">
         </div>
     </div>
 </header>
@@ -55,15 +55,15 @@ $this->title = 'Madetec Solution | Digital Agency';
         <div class="list-project-items row">
             
                 <div class="madetec-project item-blck-projects col-md-6 mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
-                    <div class="main-wrap-project bg-home">
+                    <div class="main-wrap-project bg-home m-aut position-relative">
                         <div class="text-blck-project">
-                            <p class="title-items-project">Проект <span>Madetec</span></p>
+                            <p class="title-items-project">Проект <span class="font-weight-bold">Madetec</span></p>
                             <p class="text-main">
-                                Проект <span>madetec</span> был создан с целью предоставления качественных
+                                Проект <span class="font-weight-bold">madetec</span> был создан с целью предоставления качественных
                                 услуг и передовых инженерных решений в сфере разработки программного
                                 обеспечения, приложений различного типа, дизайна и маркетинга.
                             </p>
-                            <p class="text-main">А самое главное мы гарантируем <span>качество!</span></p>
+                            <p class="text-main">А самое главное мы гарантируем <span class="font-weight-bold">качество!</span></p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             <a href="<?= Url::to(['/site/development']) ?>" class="col-md-6">
 
                 <div class="madetec-development item-blck-projects mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
-                    <div class="main-wrap-project">
+                    <div class="main-wrap-project overflow-hide position-relative">
                         <picture>
                             <source srcset="\img\new-img\small\picter\developer.jpg"  media="(max-width: 600px)">
                             <img src="\img\new-img\large\picter\developer.jpg" alt="">
@@ -89,7 +89,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             </a>
             <a href="<?= Url::to(['/site/digital']) ?>" class="col-md-6">
                 <div class="madetec-digital item-blck-projects mt-20" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
-                <div class="main-wrap-project">
+                <div class="main-wrap-project overflow-hide position-relative">
                     
                      <picture>
                         <source srcset="\img\new-img\small\picter\blur-noutbook.jpg"  media="(max-width: 600px)">
@@ -108,7 +108,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             </a>
             <a href="<?= Url::to(['/site/design']) ?>" class="col-md-6">
                 <div class="madetec-design item-blck-projects  mt-20" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
-                <div class="main-wrap-project">
+                <div class="main-wrap-project overflow-hide position-relative">
             
                      <picture>
                         <source srcset="\img\new-img\small\picter\OT1C850-min.jpg"  media="(max-width: 600px)">
@@ -128,7 +128,7 @@ $this->title = 'Madetec Solution | Digital Agency';
         </div>
      <div class="container-text-bot row">
         <div class="left-text col-md-4" data-aos="fade-down" data-aos-once="true" data-aos-duration="800">
-            <p class="title-text grey">Почему мы?</p>
+            <p class="title-text grey font-weight-bold">Почему мы?</p>
             <p class="main-text-bot grey">Проекты выполняются квалифицированными специалистами
                 в своей отрасли, что примечательно, для разработки привлекаются сотрудники
                 со всех направлений, что бы создать отличающийся продукт не только функционированием,
@@ -138,19 +138,19 @@ $this->title = 'Madetec Solution | Digital Agency';
              <ul class="row">
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
                      <div class="icon-cont text-center"><i class="far fa-smile-wink"></i></div>
-                     <p class="text-icon grey">С нами <span>легко</span></p>
+                     <p class="text-icon grey text-center mt-15">С нами <span class="font-weight-bold">легко</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
                      <div class="icon-cont text-center"><i class="far fa-clock"></i></div>
-                     <p class="text-icon grey">С нами <span>быстро</span></p>
+                     <p class="text-icon grey text-center mt-15">С нами <span class="font-weight-bold">быстро</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
                      <div class="icon-cont text-center"><i class="far fa-thumbs-up"></i></div>
-                     <p class="text-icon grey">Мы гарантируем <span>качество</span></p>
+                     <p class="text-icon grey text-center mt-15">Мы гарантируем <span class="font-weight-bold">качество</span></p>
                  </li>
                  <li class="item-text-icon col-md-3" data-aos="fade-up" data-aos-once="true">
                      <div class="icon-cont text-center"><i class="far fa-calendar-check"></i></div>
-                     <p class="text-icon grey">Мы выполняем в <span>сроки</span></p>
+                     <p class="text-icon grey text-center mt-15">Мы выполняем в <span class="font-weight-bold">сроки</span></p>
                  </li>
              </ul>
          </div>
@@ -159,7 +159,7 @@ $this->title = 'Madetec Solution | Digital Agency';
 
  <!-- About Us -->
 
-<section id="about-us" class="about-us">
+<section id="about-us" class="about-us position-relative">
     <div class="wrap-pic-filt" style="z-index:-1;"></div>
     <picture>
         <source srcset="\img\new-img\small\picter\code.jpg"  media="(max-width: 600px)" class="bg-about-us img-cover">
@@ -168,15 +168,19 @@ $this->title = 'Madetec Solution | Digital Agency';
     <div class="container main-content-about">
         <h1 class="text-center mb-0" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">О нас</h1>
         <p class="text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">новая эра нашего бизнеса</p>
-        <a href="" class="btn-link link-about-us" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Узнать больше</a>
+        <a href="" class="btn-link row col-md-2 text-center m-aut" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Узнать больше</a>
     </div>
 </section>
+
+
 <!-- Portfolio Start -->
+
+
 <section id="portfolio" class="companys-portfolio" data-scroll-index="2">
     <div class="container row justify-content-between">
         <a href="<?= Url::to(['/site/watch-vault']) ?>" class="col-md-4">
-            <div class="contain-project-side watch-v-project " data-aos="fade-down">
-            <div class="main-content-portfolio img-hover">
+            <div class="contain-project-side watch-v-project position-relative" data-aos="fade-down">
+            <div class="main-content-portfolio img-hover position-relative m-aut overflow-hide">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -205,7 +209,7 @@ $this->title = 'Madetec Solution | Digital Agency';
             </div>
             
             <a href="" class="align-self-end">
-            <div class="brs-project position-relative img-hover">
+            <div class="brs-project position-relative img-hover overflow-hide">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -220,8 +224,8 @@ $this->title = 'Madetec Solution | Digital Agency';
         </a>
         </div>
         <a href="" class="col-md-4">
-        <div class="contain-project-side dood-project" data-aos="fade-down">
-            <div class="main-content-portfolio img-hover">
+        <div class="contain-project-side dood-project main-content-portfolio overflow-hide" data-aos="fade-down">
+            <div class="img-hover">
                 <div class="child-content-background"></div>
                 <div class="wrap-pic-filt" style="z-index:1;"></div>
                 <div class="logo-project" style="z-index:2; position:relative;">
@@ -240,17 +244,18 @@ $this->title = 'Madetec Solution | Digital Agency';
         </a>
 
     </div>
-    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view"><span class="link-wrap"><p>Узнать больше</p></span></a>
+    <a href="<?= Url::to(['/site/project']) ?>" class="btn-link btn-portfolio-view text-center"><span class="link-wrap"><p>Узнать больше</p></span></a>
 </section>
+
 <!-- Reviews Start -->
-<section id="reviews" class="reviews" data-scroll-index="1">
+<section id="reviews" class="reviews position-relative" data-scroll-index="1">
     <div class="wrap-pic-filt" style="z-index:1;"></div>
     <picture>
-        <source srcset="\img\new-img\small\picter\company-coperation.jpg"  media="(max-width: 600px)" class="bg-img-review img-cover">
-        <img src="\img\new-img\large\picter\company-coperation.jpg" alt="" class="bg-img-review img-cover">
+        <source srcset="\img\new-img\small\picter\company-coperation.jpg"  media="(max-width: 600px)" class="position-absolute img-cover">
+        <img src="\img\new-img\large\picter\company-coperation.jpg" alt="" class="position-absolute img-cover">
     </picture>
     <div class="container pt-70">
-        <p class="reviews-top mb-0 mt-20" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Отзывы о</p>
+        <p class="reviews-top mb-0 mt-20 text-center position-relative" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Отзывы о</p>
         <span class="logo-companys" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
            
             <picture>
@@ -266,7 +271,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                    
                                     <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
@@ -290,7 +295,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -313,7 +318,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -336,7 +341,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -359,7 +364,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -382,7 +387,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -405,7 +410,7 @@ $this->title = 'Madetec Solution | Digital Agency';
                     <div class="review-item">
                         <div class="review-detail">
                             <div class="inf-user-review row justify-content-center mt-20">
-                                <div class="avatar-user">
+                                <div class="avatar-user overflow-hide">
                                      <picture>
                                         <source srcset="\img\new-img\small\user-avatar\1.jpg" media="(max-width: 600px)" class="img-cover">
                                         <img src="\img\new-img\large\user-avatar\1.jpg" alt="" class="img-cover">
@@ -431,9 +436,9 @@ $this->title = 'Madetec Solution | Digital Agency';
 </section>
 <!-- Reviews End -->
 
-<section id="your-ideas" class="your-ideas">
+<section id="your-ideas" class="your-ideas position-relative">
     <div class="container">
-        <div class="form-contain">
+        <div class="form-contain bg-white m-aut position-absolute">
             <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
                 <span>Место для Ваших идей</span>
             </h3>
