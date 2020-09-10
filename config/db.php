@@ -1,18 +1,10 @@
 <?php
 
-/*if ($_SERVER['SERVER_NAME'] != 'madetec.test') {
-    $db = [
-        'dsn' => 'mysql:host=localhost;dbname=madetec',
+$db = [
+        'dsn' => 'mysql:host=localhost;dbname=gecouz_madetec.uz',
         'username' => 'madetec',
         'password' => 'Vikqab-zajpeg-jyzno5',
     ];
-} else {*/
-    $db = [
-        'dsn' => 'mysql:host=localhost;dbname=madetec',
-        'username' => 'root',
-        'password' => '',
-    ];
-//}
 $settings = [
     'class' => 'yii\db\Connection',
     'charset' => 'utf8mb4',
