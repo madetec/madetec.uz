@@ -9,6 +9,11 @@ return [
     'showScriptName' => false,
     'ignoreLanguageUrlPatterns' => [
         '#^images/#' => '#^images/#',
+        '#^css/#' => '#^css/#',
+        '#^favicons/#' => '#^favicons/#',
+        '#^img/#' => '#^img/#',
+        '#^js/#' => '#^js/#',
+        '#^vendor/#' => '#^vendor/#',
     ],
     'rules' => [
         '' => 'site/index',
