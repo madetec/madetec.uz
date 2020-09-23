@@ -13,6 +13,10 @@ CREATE TABLE `users` (
   KEY `idx-users-status` (`status`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+
+INSERT INTO `users` (`id`, `name`, `username`, `auth_key`, `is_admin`, `password_hash`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Администратор', 'cp_admin', 'OMVHuBGGZXQ1yL84TZRLcl3WODaFcftl', 1, '$2y$13$Gx.funmIc0/ArNBeUL5.DeB/m0mCgDjCDcd7.oeCYW.0bxn7xFCZi', 10, 1600894819, 1600894819);
+
 CREATE TABLE `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
