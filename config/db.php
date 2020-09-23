@@ -1,10 +1,10 @@
 <?php
 
 $db = [
-        'dsn' => 'mysql:host=localhost;dbname=gecouz_madetec.uz',
-        'username' => 'madetec',
-        'password' => 'Vikqab-zajpeg-jyzno5',
-    ];
+    'dsn' => 'mysql:host=localhost;dbname=gecouz_madetec.uz',
+    'username' => 'madetec',
+    'password' => 'Vikqab-zajpeg-jyzno5',
+];
 $settings = [
     'class' => 'yii\db\Connection',
     'charset' => 'utf8mb4',
