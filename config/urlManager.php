@@ -7,13 +7,16 @@ return [
     'languages' => ['ru', 'en'],
     'enablePrettyUrl' => true,
     'showScriptName' => false,
+    'ignoreLanguageUrlPatterns' => [
+        '#^images/#' => '#^images/#',
+    ],
     'rules' => [
         '' => 'site/index',
         '<_a:(design|development|watch-vault|digital|project|about|contact)>' => 'site/<_a>',
         'about' => 'site/about',
         'contact' => 'site/contact',
         'captcha' => 'site/captcha',
-        'sitemap.xml'=>'sitemap/index',
+        'sitemap.xml' => 'sitemap/index',
         '<_c:[\w+]>/<_a:[\w_-]+>' => '<_c>/<_a>',
     ],
 ];
